@@ -1,0 +1,17 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on: mdds
+
+name=libixion
+version=0.14.1
+release=1
+source=(https://kohei.us/files/ixion/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+    ./configure --prefix=/usr \
+        --disable-static --disable-python
+    make
+    make DESTDIR=$PKG install
+}

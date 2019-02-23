@@ -1,0 +1,75 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on: liblangtag mdds libepoxy glm harfbuzz liborcus libtommath unixodbc sane fontforge
+
+name=libreoffice
+version=6.2.1.1
+release=1
+source=(
+#https://github.com/LibreOffice/core/archive/$name-$version.tar.gz
+makefile.in.patch 
+libreoffice-6.1.2.1-poppler70-1.patch 
+boost-1.69.patch)
+git=(git://anongit.freedesktop.org/libreoffice/core)
+
+build() {
+#    cd core-$name-$version
+    #git clone --depth=1 -b $name-$version $git core-$name-$version
+    cd core-$name-$version
+
+    patch -Np0 -i ../makefile.in.patch
+    patch -Np0 -i ../boost-1.69.patch
+
+    build_hash=$(git log --pretty=%h | head -n1)
+    build_date=$(date +%Y%m%d)
+   
+    # --enable-build-opensymbol is a font type and needs fontforge
+    # 
+
+    ./autogen.sh --prefix=/usr \
+        --enable-release-build \
+        --enable-build-opensymbol \
+        --enable-introspection=yes \
+        --enable-python=internal \
+        --with-valgrind \
+        --with-package-format=archive \
+        --with-build-version="$name-$version" \
+        --with-extra-buildid="$(crux): ${build_hash}-${build_date}" \
+        --with-package-version='$version' \
+        --with-system-headers \
+        --with-system-libs \
+        --with-parallelism \
+        --without-fonts \
+        --without-help \
+        --without-gssapi \
+        --without-java \
+        --without-krb5 \
+        --disable-extension-update \
+        --disable-pdfium \
+        --disable-odk \
+        --disable-gstreamer-0-10 \
+        --disable-postgresql-sdbc \
+        --enable-firebird-sdbc=no \
+        --disable-report-builder
+    make build-nocheck
+	
+    pushd workdir/installation/LibreOffice/archive/install/en-US
+  	tar xf *.tar.gz
+	popd
+	
+	make DESTDIR=$PKG distro-pack-install
+
+    install -dm755 $PKG/usr/etc/libreoffice
+    install -m644 $PKG/usr/lib/libreoffice/program/{bootstraprc,sofficerc} \
+                $PKG/usr/etc/libreoffice/
+    install -m644 $PKG/usr/lib/libreoffice/share/psprint/psprint.conf \
+                $PKG/usr/etc/libreoffice/
+
+	# install dummy links to make them found by LibO
+	cd $PKG/usr/lib/libreoffice/program/
+	ln -vsrf $PKG/usr/etc/libreoffice/{bootstraprc,sofficerc} .
+
+	# cleanup
+	rm -rf $PKG/usr/share/libreoffice/sdk
+}

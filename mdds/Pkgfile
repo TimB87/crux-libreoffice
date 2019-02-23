@@ -1,0 +1,15 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on:
+
+name=mdds
+version=1.4.3
+release=1
+source=(https://kohei.us/files/mdds/src/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+    ./autogen.sh --prefix=/usr
+    make DESTDIR=$PKG install
+}

@@ -1,0 +1,20 @@
+# Description: COIN-OR Open Solver Interface
+# URL: https://projects.coin-or.org/Osi
+# Maintainer:
+# Depends on: coin-or-coinutils gcc-fortran
+
+name=coin-or-osi
+version=0.107.9
+release=1
+source=(https://www.coin-or.org/download/source/Osi/Osi-${version}.tgz)
+
+build() {
+	cd Osi-$version
+    COIN_SKIP_PROJECTS="Sample" \
+    ./configure --prefix=/usr --enable-dependency-linking \
+              --with-coinutils-lib="$(pkg-config --libs coinutils)" \
+              --with-coinutils-incdir="/usr/include/coin/"
+    make
+    PKG_CONFIG_LIBDIR="${PKG}/usr/lib/pkgconfig/" \
+    make DESTDIR="$PKG" install
+}
