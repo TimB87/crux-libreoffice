@@ -9,16 +9,17 @@ release=1
 source=(https://github.com/g-truc/glm/releases/download/$version/glm-$version.zip)
 
 build() {
-	cd $name-$version
+ls
+cd $name #-$version
     mkdir build && cd build
     cmake .. \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_INSTALL_LIBDIR=lib
     make DESTDIR=$PKG install
-    find $PKG -type -f -exec chmod 644 {}\;
-    find $PKG -type -d -exec chmod 755 {}\;
+    find $PKG -type f -exec chmod 644 {} \;
+    find $PKG -type d -exec chmod 755 {} \;
     sed -i \
         "s/PACKAGE_VERSION_UNSUITABLE TRUE/PACKAGE_VERSION_UNSUITABLE FALSE/g" \
         $PKG/usr/lib/cmake/glm/glmConfigVersion.cmake
-    sed -i "s/(__GNUC__ == 7) && (__GNUC_MINOR__ == 2)/(__GNUC__ == 7) \&\& (__GNUC_MINOR__ >= 2)/" $pkgdir/usr/include/glm/simd/platform.h
+    sed -i "s/(__GNUC__ == 7) && (__GNUC_MINOR__ == 2)/(__GNUC__ == 7) \&\& (__GNUC_MINOR__ >= 2)/" $PKG/usr/include/glm/simd/platform.h
 }
