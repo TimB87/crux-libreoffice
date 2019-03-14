@@ -1,7 +1,7 @@
 # Description: a library for calculating the results of formula expressions stored in multiple named targets
-# URL:
+# URL: https://gitlab.com/ixion/ixion
 # Maintainer:
-# Depends on: mdds
+# Depends on: mdds py3boost
 
 name=libixion
 version=0.14.1
@@ -12,8 +12,7 @@ build() {
   cd $name-$version
   CFLAGS="-O2 -fPIC" \
   CXXFLAGS="-O2 -fPIC" \
-  ./configure --prefix=/usr \
-    --disable-static
+  ./configure --prefix=/usr
   make
   make DESTDIR=$PKG install
 }
