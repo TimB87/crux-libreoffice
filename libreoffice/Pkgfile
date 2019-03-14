@@ -1,22 +1,18 @@
-# Description:
-# URL:
+# Description: LibreOffice is a powerful office suite
+# URL: https://www.libreoffice.org/
 # Maintainer:
-# Depends on: fontforge glm libepoxy liblangtag liborcus libtommath sane unixodbc
+# Depends on: avahi clucene coin-or-mp cups dconf fontforge gpgme graphite2 gst-plugins-base gtk gtk3 harfbuzz-icu hunspell hyphen libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libvisio libwebp libwpg libwps libzmf lpsolve neon poppler redland xmlsec
 
 name=libreoffice
 version=6.2.2.1
 release=1
 source=(
-http://downloadarchive.documentfoundation.org/libreoffice/old/6.2.2.1/src/libreoffice-6.2.2.1.tar.xz
+http://downloadarchive.documentfoundation.org/libreoffice/old/$version/src/$name-$version.tar.xz
 makefile.in.patch
-libreoffice-6.1.2.1-poppler70-1.patch
 boost-1.69.patch)
-git=(git://anongit.freedesktop.org/libreoffice/core)
 
 build() {
   cd $name-$version
-  #git clone --depth=1 -b $name-$version $git git-core-$name-$version
-  #cd git-core-$name-$version
   patch -Np0 -i ../makefile.in.patch
   patch -Np0 -i ../boost-1.69.patch
 
@@ -28,36 +24,37 @@ build() {
 
   build_hash=$(git log --pretty=%h | head -n1)
   build_date=$(date +%Y%m%d)
-  # --enable-build-opensymbol is a font type and needs fontforge
   ./autogen.sh --prefix=/usr \
     --enable-release-build \
     --enable-build-opensymbol \
     --enable-introspection=yes \
     --enable-python=system \
-    --with-valgrind \
     --with-package-format=archive \
     --with-build-version="$name-$version" \
-    --with-extra-buildid="$(crux | awk '{ print $1 " " $3 }'): ${build_hash}-${build_date}" \
-    --with-package-version='$version' \
+    --with-extra-buildid="$(crux | awk '{ print $1 " " $3 }') ${build_hash}-${build_date}" \
+    --with-package-version="$version" \
     --with-system-headers \
     --with-system-libs \
     --with-parallelism \
     --without-fonts \
     --without-help \
+    --without-helppack-integration \
     --without-gssapi \
     --without-java \
     --without-krb5 \
+    --disable-gstreamer-0-10 \
+    --disable-sdremote-bluetooth \
     --disable-extension-update \
     --disable-pdfium \
     --disable-odk \
-    --disable-gstreamer-0-10 \
     --disable-postgresql-sdbc \
     --enable-firebird-sdbc=no \
-    --disable-report-builder
+    --disable-report-builder \
+    --disable-werror
   touch sources.ver
   echo "lo_sources_ver=${version}" > sources.ver
   cat sources.ver
-  export LDFLAGS="-lboost_system"
+  #export LDFLAGS="-lboost_system"
   make build-nocheck
 
   pushd workdir/installation/LibreOffice/archive/install/en-US
