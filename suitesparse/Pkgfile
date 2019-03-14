@@ -1,0 +1,21 @@
+# Description: A collection of sparse matrix libraries
+# URL: http://faculty.cse.tamu.edu/davis/suitesparse.html
+# Maintainer:
+# Depends on: intel-tbb lapack metis chrpath
+
+name=suitesparse
+version=5.4.0
+release=1
+source=(http://faculty.cse.tamu.edu/davis/SuiteSparse/SuiteSparse-$version.tar.gz suitesparse-no-demo.patch)
+
+build() {
+  patch -p0 -i suitesparse-no-demo.patch
+  cd SuiteSparse
+  BLAS=-lblas TBB=-ltbb SPQR_CONFIG=-DHAVE_TBB MY_METIS_LIB=/usr/lib/libmetis.so make
+  install -dm755 $PKG/usr/{include,lib}
+
+  BLAS=-lblas TBB=-ltbb SPQR_CONFIG=-DHAVE_TBB MY_METIS_LIB=/usr/lib/libmetis.so \
+  make INSTALL_LIB=$PKG/usr/lib INSTALL_INCLUDE=$PKG/usr/include install
+
+  chrpath -d $PKG/usr/lib/*
+}

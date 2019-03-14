@@ -1,0 +1,55 @@
+# Description: Free peer-reviewed portable C++ source libraries, with python support for libreoffice
+# URL: http://www.boost.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: python
+# Optional: icu
+
+name=boost
+version=1.69.0
+release=1
+source=(https://dl.bintray.com/boostorg/release/$version/source/${name}_${version//./_}.tar.bz2)
+
+build() {
+  cd ${name}_${version//./_}
+
+  local ICU=$([ -e /usr/bin/icu-config ] && echo --with-icu)
+  ./bootstrap.sh --prefix=$PKG/usr \
+    --with-toolset=gcc \
+    $ICU \
+    --with-python=/usr/bin/python2
+
+  ./b2 stage \
+    variant=release \
+    threading=multi \
+    runtime-link=shared \
+    link=shared,static \
+    toolset=gcc \
+    python=2.7 \
+    --layout=system \
+    debug-symbols=off \
+    -j ${JOBS-1}
+
+  ./b2 install threading=multi link=shared
+
+  #include pyhton3
+  ./b2 clean
+  local ICU=$([ -e /usr/bin/icu-config ] && echo --with-icu)
+  sed -e '/using python/ s@;@: /usr/include/python${PYTHON_VERSION/3*/${PYTHON_VERSION}m} ;@' \
+          -i bootstrap.sh
+  ./bootstrap.sh --prefix=$PKG/usr \
+    --with-toolset=gcc \
+    --with-icu \
+    --with-python=/usr/bin/python3
+  ./b2 stage \
+    variant=release \
+    threading=multi \
+    runtime-link=shared \
+    link=shared,static \
+    toolset=gcc \
+    --layout=system \
+    debug-symbols=off \
+    -j ${JOBS-1}
+    #python=3.7 \
+
+  ./b2 install threading=multi link=shared
+}

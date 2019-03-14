@@ -1,4 +1,4 @@
-# Description:
+# Description: a library for calculating the results of formula expressions stored in multiple named targets
 # URL:
 # Maintainer:
 # Depends on: mdds
@@ -9,9 +9,11 @@ release=1
 source=(https://kohei.us/files/ixion/src/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-    ./configure --prefix=/usr \
-        --disable-static --disable-python
-    make
-    make DESTDIR=$PKG install
+  cd $name-$version
+  CFLAGS="-O2 -fPIC" \
+  CXXFLAGS="-O2 -fPIC" \
+  ./configure --prefix=/usr \
+    --disable-static
+  make
+  make DESTDIR=$PKG install
 }

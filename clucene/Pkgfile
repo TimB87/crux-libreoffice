@@ -1,7 +1,7 @@
 # Description:	Indexing and searching library
 # URL:		http://www.sourceforge.net/projects/clucene
 # Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
-# Depends on:	qt4 cmake libxml2
+# Depends on: qt4
 # Optional:	log4cxx bzip2 exiv2 boost
 
 name=clucene

@@ -1,0 +1,17 @@
+# Description: Library and a set of tools for reading and converting Apple Keynote presentations
+# URL: https://wiki.documentfoundation.org/DLP/Libraries/libetonyek
+# Maintainer:
+# Depends on: liblangtag librevenge
+
+name=libetonyek
+version=0.1.9
+release=1
+source=(https://dev-www.libreoffice.org/src/$name/$name-$version.tar.xz)
+
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr \
+    --with-mdds=1.4
+  make
+  make DESTDIR=$PKG install
+}

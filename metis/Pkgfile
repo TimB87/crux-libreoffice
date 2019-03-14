@@ -1,0 +1,17 @@
+# Description: A set of serial programs for partitioning graphs, partitioning finite element meshes, and producing fill reducing orderings for sparse matrices
+# URL: http://glaros.dtc.umn.edu/gkhome/metis/metis/overview
+# Maintainer:
+# Depends on:
+
+name=metis
+version=5.1.0
+release=1
+source=(http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  ls
+  make config shared=1 prefix=/usr
+  make
+  make install DESTDIR=$PKG
+}

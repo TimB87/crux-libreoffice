@@ -1,75 +1,81 @@
 # Description:
 # URL:
 # Maintainer:
-# Depends on: liblangtag mdds libepoxy glm harfbuzz liborcus libtommath unixodbc sane fontforge
+# Depends on: fontforge glm libepoxy liblangtag liborcus libtommath sane unixodbc
 
 name=libreoffice
-version=6.2.1.1
+version=6.2.2.1
 release=1
 source=(
-#https://github.com/LibreOffice/core/archive/$name-$version.tar.gz
-makefile.in.patch 
-libreoffice-6.1.2.1-poppler70-1.patch 
+http://downloadarchive.documentfoundation.org/libreoffice/old/6.2.2.1/src/libreoffice-6.2.2.1.tar.xz
+makefile.in.patch
+libreoffice-6.1.2.1-poppler70-1.patch
 boost-1.69.patch)
 git=(git://anongit.freedesktop.org/libreoffice/core)
 
 build() {
-#    cd core-$name-$version
-    #git clone --depth=1 -b $name-$version $git core-$name-$version
-    cd core-$name-$version
+  cd $name-$version
+  #git clone --depth=1 -b $name-$version $git git-core-$name-$version
+  #cd git-core-$name-$version
+  patch -Np0 -i ../makefile.in.patch
+  patch -Np0 -i ../boost-1.69.patch
 
-    patch -Np0 -i ../makefile.in.patch
-    patch -Np0 -i ../boost-1.69.patch
+  find -L . \
+     \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
+     -o -perm 511 \) -exec chmod 755 {} \; -o \
+     \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
+     -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-    build_hash=$(git log --pretty=%h | head -n1)
-    build_date=$(date +%Y%m%d)
-   
-    # --enable-build-opensymbol is a font type and needs fontforge
-    # 
+  build_hash=$(git log --pretty=%h | head -n1)
+  build_date=$(date +%Y%m%d)
+  # --enable-build-opensymbol is a font type and needs fontforge
+  ./autogen.sh --prefix=/usr \
+    --enable-release-build \
+    --enable-build-opensymbol \
+    --enable-introspection=yes \
+    --enable-python=system \
+    --with-valgrind \
+    --with-package-format=archive \
+    --with-build-version="$name-$version" \
+    --with-extra-buildid="$(crux | awk '{ print $1 " " $3 }'): ${build_hash}-${build_date}" \
+    --with-package-version='$version' \
+    --with-system-headers \
+    --with-system-libs \
+    --with-parallelism \
+    --without-fonts \
+    --without-help \
+    --without-gssapi \
+    --without-java \
+    --without-krb5 \
+    --disable-extension-update \
+    --disable-pdfium \
+    --disable-odk \
+    --disable-gstreamer-0-10 \
+    --disable-postgresql-sdbc \
+    --enable-firebird-sdbc=no \
+    --disable-report-builder
+  touch sources.ver
+  echo "lo_sources_ver=${version}" > sources.ver
+  cat sources.ver
+  export LDFLAGS="-lboost_system"
+  make build-nocheck
 
-    ./autogen.sh --prefix=/usr \
-        --enable-release-build \
-        --enable-build-opensymbol \
-        --enable-introspection=yes \
-        --enable-python=internal \
-        --with-valgrind \
-        --with-package-format=archive \
-        --with-build-version="$name-$version" \
-        --with-extra-buildid="$(crux): ${build_hash}-${build_date}" \
-        --with-package-version='$version' \
-        --with-system-headers \
-        --with-system-libs \
-        --with-parallelism \
-        --without-fonts \
-        --without-help \
-        --without-gssapi \
-        --without-java \
-        --without-krb5 \
-        --disable-extension-update \
-        --disable-pdfium \
-        --disable-odk \
-        --disable-gstreamer-0-10 \
-        --disable-postgresql-sdbc \
-        --enable-firebird-sdbc=no \
-        --disable-report-builder
-    make build-nocheck
-	
-    pushd workdir/installation/LibreOffice/archive/install/en-US
-  	tar xf *.tar.gz
-	popd
-	
-	make DESTDIR=$PKG distro-pack-install
+  pushd workdir/installation/LibreOffice/archive/install/en-US
+  tar xf *.tar.gz
+  popd
 
-    install -dm755 $PKG/usr/etc/libreoffice
-    install -m644 $PKG/usr/lib/libreoffice/program/{bootstraprc,sofficerc} \
-                $PKG/usr/etc/libreoffice/
-    install -m644 $PKG/usr/lib/libreoffice/share/psprint/psprint.conf \
-                $PKG/usr/etc/libreoffice/
+  make DESTDIR=$PKG distro-pack-install
 
-	# install dummy links to make them found by LibO
-	cd $PKG/usr/lib/libreoffice/program/
-	ln -vsrf $PKG/usr/etc/libreoffice/{bootstraprc,sofficerc} .
+  install -dm755 $PKG/usr/etc/libreoffice
+  install -m644 $PKG/usr/lib/libreoffice/program/{bootstraprc,sofficerc} \
+    $PKG/usr/etc/libreoffice/
+  install -m644 $PKG/usr/lib/libreoffice/share/psprint/psprint.conf \
+    $PKG/usr/etc/libreoffice/
 
-	# cleanup
-	rm -rf $PKG/usr/share/libreoffice/sdk
+  # install dummy links to make them found by LibO
+  cd $PKG/usr/lib/libreoffice/program/
+  ln -vsrf $PKG/usr/etc/libreoffice/{bootstraprc,sofficerc} .
+
+  # cleanup
+  rm -rf $PKG/usr/share/libreoffice/sdk
 }

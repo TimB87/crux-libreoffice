@@ -1,7 +1,7 @@
-# Description:
-# URL:
+# Description: interface library to access/deal with tags for identifying languages
+# URL: http://tagoh.bitbucket.org/liblangtag/index.html
 # Maintainer:
-# Depends on:
+# Depends on: glib libxml2
 
 name=liblangtag
 version=0.6.2
@@ -9,8 +9,8 @@ release=1
 source=(https://bitbucket.org/tagoh/liblangtag/downloads/$name-$version.tar.bz2)
 
 build() {
-	cd $name-$version
-    ./configure --prefix=/usr
-    make
-    make DESTDIR=$PKG install
+  cd $name-$version
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
 }

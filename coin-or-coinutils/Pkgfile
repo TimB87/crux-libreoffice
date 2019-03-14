@@ -1,21 +1,21 @@
-# Description:
-# URL:
+# Description: COIN-OR collection of utility classes
+# URL: https://projects.coin-or.org/CoinUtils
 # Maintainer:
-# Depends on: zlib bzip2 glpk lapack gcc-fortran doxygen
+# Depends on: glpk lapack
 
 name=coin-or-coinutils
-version=2.10.14
+version=2.11.0
 release=1
 source=(https://www.coin-or.org/download/source/CoinUtils/CoinUtils-$version.tgz)
 
 build() {
-	cd CoinUtils-$version
-    ./configure --prefix=/usr \
-                --with-blas-lib='-lblas' \
-                --with-lapack-lib='-llapack' \
-                --with-glpk-lib='-lglpk' \
-                --enable-dependency-linking
-    make
-    PKG_CONFIG_LIBDIR="$PKG"/usr/lib/pkgconfig/ \
-    make DESTDIR="$PKG" install
+  cd CoinUtils-$version
+  ./configure --prefix=/usr \
+    --with-blas-lib='-lblas' \
+    --with-lapack-lib='-llapack' \
+    --with-glpk-lib='-lglpk' \
+    --enable-dependency-linking
+  make
+  PKG_CONFIG_LIBDIR="$PKG"/usr/lib/pkgconfig/ \
+  make DESTDIR="$PKG" install
 }

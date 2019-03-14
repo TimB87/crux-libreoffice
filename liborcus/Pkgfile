@@ -1,7 +1,7 @@
-# Description:
-# URL:
+# Description: File import filter library for spreadsheet documents.
+# URL: https://gitlab.com/orcus/orcus
 # Maintainer:
-# Depends on: libixion
+# Depends on: libixion zstd
 
 name=liborcus
 version=0.14.1
@@ -9,8 +9,8 @@ release=1
 source=(https://kohei.us/files/orcus/src/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-    ./configure --prefix=/usr --disable-python
-    make
-    make DESTDIR=$PKG install
+  cd $name-$version
+  ./configure --prefix=/usr --disable-python
+  make
+  make DESTDIR=$PKG install
 }

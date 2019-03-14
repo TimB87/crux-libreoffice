@@ -9,8 +9,8 @@ release=1
 source=(https://dev-www.libreoffice.org/src/$name/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-    ./configure --prefix=/usr
-    make
-    make DESTDIR="$PKG" install
+  cd $name-$version
+  ./configure --prefix=/usr
+  make
+  make DESTDIR="$PKG" install
 }

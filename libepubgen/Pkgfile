@@ -1,0 +1,16 @@
+# Description: an EPUB generator for librevenge
+# URL: https://sourceforge.net/projects/libepubgen/
+# Maintainer:
+# Depends on: librevenge
+
+name=libepubgen
+version=0.1.1
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name-$version/$name-$version.tar.xz)
+
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+}

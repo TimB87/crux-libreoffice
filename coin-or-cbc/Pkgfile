@@ -1,10 +1,10 @@
-# Description:
-# URL:
+# Description: COIN-OR branch-and-cut mixed integer programming solver
+# URL: https://projects.coin-or.org/Cbc
 # Maintainer:
 # Depends on: coin-or-cgl
 
 name=coin-or-cbc
-version=2.9.9
+version=2.10.0
 release=1
 source=(https://www.coin-or.org/download/source/Cbc/Cbc-${version}.tgz)
 

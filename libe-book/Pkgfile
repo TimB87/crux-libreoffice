@@ -1,0 +1,16 @@
+# Description: Library for import of reflowable e-book formats.
+# URL: http://sourceforge.net/projects/libebook/
+# Maintainer:
+# Depends on: icu liblangtag librevenge
+
+name=libe-book
+version=0.1.3
+release=1
+source=(https://sourceforge.net/projects/${name//-/}/files//${name}-${version}/$name-$version.tar.xz)
+
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+}

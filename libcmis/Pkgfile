@@ -1,7 +1,7 @@
-# Description:
-# URL:
+# Description: a C/C++ client library for the CMIS protocol
+# URL: https://github.com/tdf/libcmis
 # Maintainer:
-# Depends on:
+# Depends on: boost brotli gnutls keyutils krb5 libpsl libxml2 openldap rtmpdump
 
 name=libcmis
 version=0.5.2
@@ -9,10 +9,10 @@ release=1
 source=(https://github.com/tdf/libcmis/releases/download/v${version}/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
-    ./configure --prefix=/usr \
-                --disable-werror \
-                --with-man=no
-    make
-    make DESTDIR=$PKG install
+  cd $name-$version
+  ./configure --prefix=/usr \
+    --disable-werror \
+    --with-man=no
+  make
+  make DESTDIR=$PKG install
 }

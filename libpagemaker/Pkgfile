@@ -1,0 +1,17 @@
+# Description: a library that parses the file format of Aldus/Adobe PageMaker documents
+# URL: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
+# Maintainer:
+# Depends on: librevenge
+
+name=libpagemaker
+version=0.0.4
+release=1
+source=(https://dev-www.libreoffice.org/src/$name/$name-$version.tar.xz)
+
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr \
+    --disable-werror
+  make
+  make DESTDIR=$PKG install
+}

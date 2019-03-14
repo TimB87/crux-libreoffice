@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/cmpfillin
+-rwxr-xr-x	root/root	usr/bin/gpmetis
+-rwxr-xr-x	root/root	usr/bin/graphchk
+-rwxr-xr-x	root/root	usr/bin/m2gmetis
+-rwxr-xr-x	root/root	usr/bin/mpmetis
+-rwxr-xr-x	root/root	usr/bin/ndmetis
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/metis.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libmetis.so
