@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67iY1yJN08Rc59X0sBBxy3omBhmkWQzNpjKuytlWKDnMOyUOTfqtKLexoTAjc4xjKibaUINajwktYF2BNu0s9kuQU=
+SHA256 (Pkgfile) = fef730b6c3b0476873aa01a3c5fc6e78104c2c2bc11269a3c8b74781bf50cbe1
+SHA256 (.footprint) = acb892ee394b107a66eb53fef4a56067609342add63d9ad399074b3e277caf55
+SHA256 (libvisio-0.1.6.tar.xz) = fe1002d3671d53c09bc65e47ec948ec7b67e6fb112ed1cd10966e211a8bb50f9

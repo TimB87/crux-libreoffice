@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67icOfrqsM2h2iILYxaugfmJRxZrkVtzP3FF9kiN7Sw67i/CyBgWKw+yh2CX5tzdSsVhxBKHpyqvzoArqrd5ckQQk=
+SHA256 (Pkgfile) = f4dff50b7c9ddd7949f82e237e31371454a28a0e1b2bcd259a604f17c054560e
+SHA256 (.footprint) = 7e13890d04622cc1c287c22fd523436420f7769fd4a1b113072c931225dc7ee2
+SHA256 (cppunit-1.14.0.tar.gz) = 3d569869d27b48860210c758c4f313082103a5e58219a7669b52bfd29d674780

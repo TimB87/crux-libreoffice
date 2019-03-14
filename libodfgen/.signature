@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67iWixd17mIWC8CUj4CqFJa13LCrNouogvrlzvpwptx/qsg1y3nAsDarWezBz5oMBqfXXK+a2dICWRJODZTjHUMQM=
+SHA256 (Pkgfile) = e74a10003676b3794b6791143aea7306534e63211318c3787a9cc1d66e0b1847
+SHA256 (.footprint) = b21b8f2f6ddf85a7bea1f5adbb0b3799c59fd7160f242682806df9b0b4cb0cd8
+SHA256 (libodfgen-0.1.7.tar.xz) = 323e491f956c8ca2abb12c998e350670930a32317bf9662b0615dd4b3922b831

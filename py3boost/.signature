@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67icoMmCa9zIyaFqX6Bxzjrq7LJfvPK3/TAzUGDe/SAAznmjmgMPoFj4BYaZBL3jDaq4SfoPVN/M14jWrg77vwhQs=
+SHA256 (Pkgfile) = f397b281e00247a56e8706a0282ddfaddbeea42ca99f52ab025fa2899135f70b
+SHA256 (.footprint) = 0101b202cda513205e2b3541ba592c82ca29e08b81433c99f30d48351031ed64
+SHA256 (boost_1_69_0.tar.bz2) = 8f32d4617390d1c2d16f26a27ab60d97807b35440d45891fa340fc2648b04406

@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67iXFyXLx/O+ToStSUGiXC5LJr5tK9ZtBN0ZS5TbHOLs3I35fNFRnrot0jpTKpf1kws2nj/ZMNNYwf3dDw407dHwM=
+SHA256 (Pkgfile) = b92a27d81e1a32fe0b944a258806f0e17d96aa33cd3bc9bc5f08929687427a2f
+SHA256 (.footprint) = a5b9f8f9434c118301401de10b5bdc8baf9b08f511979336a268fb05605ff6ec
+SHA256 (libnumbertext-1.0.5.tar.gz) = 508f259325efc25705e27ca1bafe487aa0b8b0f5cc3bf77cb2d53ce7f119c380
+SHA256 (libnumbertext-updateautotools.patch) = 4c1be70cbb6c7b5e2f9d3842ad83ea95971d99663768e5df2ac74956fc4555bd

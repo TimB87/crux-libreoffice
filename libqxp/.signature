@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67ietmb5zhf9IcyaO4X3x3mQ9oF3YuAiZU1nas6hBfFE8SvKeCnTSlQxIV6rM5mF5y79opJ6b1OUkXf7xH6qSdqAM=
+SHA256 (Pkgfile) = 95c03be694db0c3847768ff4586f41caee7bb7ea79dc6248c8cdbd2a4c98f7dd
+SHA256 (.footprint) = 7d4afec9ac0f4d1cbcbc333485cf173f915c5ee53bec70407e153443b2913c08
+SHA256 (libqxp-0.0.2.tar.xz) = e137b6b110120a52c98edd02ebdc4095ee08d0d5295a94316a981750095a945c
