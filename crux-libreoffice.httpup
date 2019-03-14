@@ -1,0 +1,6 @@
+# libreoffice ports collection
+#
+# https://github.com/TimB87/crux-libreoffice/
+
+ROOT_DIR=/usr/ports/crux-libreoffice
+URL=https://raw.githubusercontent.com/TimB87/crux-libreoffice/master
