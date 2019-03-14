@@ -23,17 +23,14 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/uodbc_extras.h
 -rw-r--r--	root/root	usr/include/uodbc_stats.h
 drwxr-xr-x	root/root	usr/lib/
--rw-r--r--	root/root	usr/lib/libodbc.a
 -rwxr-xr-x	root/root	usr/lib/libodbc.la
 lrwxrwxrwx	root/root	usr/lib/libodbc.so -> libodbc.so.2.0.0
 lrwxrwxrwx	root/root	usr/lib/libodbc.so.2 -> libodbc.so.2.0.0
 -rwxr-xr-x	root/root	usr/lib/libodbc.so.2.0.0
--rw-r--r--	root/root	usr/lib/libodbccr.a
 -rwxr-xr-x	root/root	usr/lib/libodbccr.la
 lrwxrwxrwx	root/root	usr/lib/libodbccr.so -> libodbccr.so.2.0.0
 lrwxrwxrwx	root/root	usr/lib/libodbccr.so.2 -> libodbccr.so.2.0.0
 -rwxr-xr-x	root/root	usr/lib/libodbccr.so.2.0.0
--rw-r--r--	root/root	usr/lib/libodbcinst.a
 -rwxr-xr-x	root/root	usr/lib/libodbcinst.la
 lrwxrwxrwx	root/root	usr/lib/libodbcinst.so -> libodbcinst.so.2.0.0
 lrwxrwxrwx	root/root	usr/lib/libodbcinst.so.2 -> libodbcinst.so.2.0.0
