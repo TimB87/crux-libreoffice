@@ -1,6 +1,6 @@
 # Description: File import filter library for spreadsheet documents.
 # URL: https://gitlab.com/orcus/orcus
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on: libixion zstd
 
 name=liborcus

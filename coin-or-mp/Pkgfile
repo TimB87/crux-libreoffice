@@ -1,6 +1,6 @@
 # Description: C-API library that supports most of the functionality of CLP (Coin LP), CBC (Coin Branch-and-Cut), and CGL (Cut Generation Library) projects
 # URL: https://projects.coin-or.org/CoinMP
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on: coin-or-cbc zlip
 
 name=coin-or-mp

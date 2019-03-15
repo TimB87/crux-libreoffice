@@ -1,6 +1,6 @@
 # Description: A collection of multi-dimensional data structures and indexing algorithms
 # URL: https://gitlab.com/mdds/mdds
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on: boost
 
 name=mdds

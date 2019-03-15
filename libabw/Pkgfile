@@ -1,6 +1,6 @@
 # Description: a library that parses the file format of AbiWord documents
 # URL: https://wiki.documentfoundation.org/DLP/Libraries/libabw
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on: librevenge libxml2
 
 name=libabw

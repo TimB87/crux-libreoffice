@@ -1,6 +1,6 @@
 # Description:	C++ unit testing library
 # URL:		http://sourceforge.net/projects/cppunit
-# Maintainer: crux libreoffice team	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Maintainer: crux libreoffice team, tbier at posteo dot de	Alan Mizrahi, alan at mizrahi dot com dot ve
 # Depends on:
 
 name=cppunit

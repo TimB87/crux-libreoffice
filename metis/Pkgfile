@@ -1,6 +1,6 @@
 # Description: A set of serial programs for partitioning graphs, partitioning finite element meshes, and producing fill reducing orderings for sparse matrices
 # URL: http://glaros.dtc.umn.edu/gkhome/metis/metis/overview
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on:
 
 name=metis

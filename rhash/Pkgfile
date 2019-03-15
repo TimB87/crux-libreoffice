@@ -1,6 +1,6 @@
 # Description: Utility for verifying hash sums of files
 # URL: https://github.com/rhash/RHash
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on:
 
 name=rhash

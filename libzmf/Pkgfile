@@ -1,6 +1,6 @@
 # Description: a library for import of Zoner drawing and bitmap files
 # URL: https://wiki.documentfoundation.org/DLP/Libraries/libzmf
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on: icu libpng librevenge
 
 name=libzmf

@@ -1,6 +1,6 @@
 # Description: COIN-OR collection of utility classes
 # URL: https://projects.coin-or.org/CoinUtils
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on: glpk lapack
 
 name=coin-or-coinutils

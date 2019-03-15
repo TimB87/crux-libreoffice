@@ -1,6 +1,6 @@
 # Description: a Microsoft Works file word processor format import filter library
 # URL: https://sourceforge.net/projects/libwps/
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on: librevenge
 
 name=libwps

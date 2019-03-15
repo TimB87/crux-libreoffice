@@ -1,6 +1,6 @@
 # Description: LibreOffice is a powerful office suite
 # URL: https://www.libreoffice.org/
-# Maintainer: crux libreoffice team crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de crux libreoffice team, tbier at posteo dot de
 # Depends on: avahi clucene coin-or-mp cups dconf fontforge gpgme graphite2 gst-plugins-base gtk gtk3 harfbuzz-icu hunspell hyphen libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libvisio libwebp libwpg libwps libzmf lpsolve neon poppler redland xmlsec
 
 name=libreoffice

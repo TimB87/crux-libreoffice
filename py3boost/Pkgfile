@@ -1,6 +1,6 @@
 # Description: Boost python3 binding.
 # URL: https://www.boost.org/
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Packager: Pedja, predivan at mts dot rs
 # Depends on:  boost python3
 

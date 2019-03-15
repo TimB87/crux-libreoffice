@@ -1,6 +1,6 @@
 # Description: GNU Linear Programming Kit : solve LP, MIP and other problems.
 # URL: http://www.gnu.org/software/glpk/glpk.html
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on: libgmp
 
 name=glpk

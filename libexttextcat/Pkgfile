@@ -1,6 +1,6 @@
 # Description: N-Gram-Based Text Categorization library primarily intended for language guessing
 # URL: http://www.freedesktop.org/wiki/Software/libexttextcat/
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on:
 
 name=libexttextcat

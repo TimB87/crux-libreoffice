@@ -1,6 +1,6 @@
 # Description: Library for generating documents in Open Document Format
 # URL: https://sourceforge.net/p/libwpd/wiki/libodfgen/
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on: librevenge
 
 name=libodfgen

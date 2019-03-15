@@ -1,6 +1,6 @@
 # Description: Open Source ODBC (Open DataBase Connectivity) sub-system
 # URL: http://www.unixodbc.org
-# Maintainer: crux libreoffice team
+# Maintainer: crux libreoffice team, tbier at posteo dot de
 # Depends on: libtool readline
 
 name=unixodbc
