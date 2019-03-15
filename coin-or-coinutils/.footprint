@@ -114,9 +114,3 @@ drwxr-xr-x	root/root	usr/share/coin/Data/Sample/
 -rw-r--r--	root/root	usr/share/coin/Data/Sample/tp5.mps
 -rw-r--r--	root/root	usr/share/coin/Data/Sample/wedding_16.block
 -rw-r--r--	root/root	usr/share/coin/Data/Sample/wedding_16.mps
-drwxr-xr-x	root/root	usr/share/coin/doc/
-drwxr-xr-x	root/root	usr/share/coin/doc/CoinUtils/
--rw-r--r--	root/root	usr/share/coin/doc/CoinUtils/AUTHORS
--rw-r--r--	root/root	usr/share/coin/doc/CoinUtils/LICENSE
--rw-r--r--	root/root	usr/share/coin/doc/CoinUtils/README
--rw-r--r--	root/root	usr/share/coin/doc/CoinUtils/coinutils_addlibs.txt

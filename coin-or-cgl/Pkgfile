@@ -1,6 +1,6 @@
 # Description: COIN-OR Cut Generation Library
 # URL: https://projects.coin-or.org/Cgl
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: coin-or-clp
 
 name=coin-or-cgl
@@ -22,4 +22,5 @@ build() {
   make
   PKG_CONFIG_LIBDIR="$PKG"/usr/lib/pkgconfig/ \
   make DESTDIR="$PKG" install
+  rm -fr $PKG/usr/share/coin/doc
 }

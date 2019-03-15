@@ -1,6 +1,6 @@
 # Description: COIN-OR linear programming solver
 # URL: https://projects.coin-or.org/Clp
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: coin-or-osi suitesparse
 
 name=coin-or-clp

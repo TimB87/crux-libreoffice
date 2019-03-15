@@ -1,6 +1,6 @@
 # Description: C-API library that supports most of the functionality of CLP (Coin LP), CBC (Coin Branch-and-Cut), and CGL (Cut Generation Library) projects
 # URL: https://projects.coin-or.org/CoinMP
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: coin-or-cbc zlip
 
 name=coin-or-mp
@@ -9,19 +9,20 @@ release=1
 source=(https://www.coin-or.org/download/source/CoinMP/CoinMP-$version.tgz)
 
 build() {
-	cd CoinMP-$version
-    COIN_SKIP_PROJECTS="Sample" \
-    ./configure --prefix=/usr \
-              --with-osi-lib="$(pkg-config --libs osi)" \
-              --with-osi-incdir="/usr/include/coin/" \
-              --with-clp-lib="$(pkg-config --libs clp)" \
-              --with-clp-incdir="/usr/include/coin/" \
-              --with-cgl-lib="$(pkg-config --libs cgl)" \
-              --with-cgl-incdir="/usr/include/coin/" \
-              --with-cbc-lib="$(pkg-config --libs cbc)" \
-              --with-cbc-incdir="/usr/include/coin/" \
-              --with-coinutils-lib="$(pkg-config --libs coinutils)" \
-              --with-coinutils-incdir="/usr/include/coin/"
+  cd CoinMP-$version
+  COIN_SKIP_PROJECTS="Sample" \
+  ./configure --prefix=/usr \
+    --with-osi-lib="$(pkg-config --libs osi)" \
+    --with-osi-incdir="/usr/include/coin/" \
+    --with-clp-lib="$(pkg-config --libs clp)" \
+    --with-clp-incdir="/usr/include/coin/" \
+    --with-cgl-lib="$(pkg-config --libs cgl)" \
+    --with-cgl-incdir="/usr/include/coin/" \
+    --with-cbc-lib="$(pkg-config --libs cbc)" \
+    --with-cbc-incdir="/usr/include/coin/" \
+    --with-coinutils-lib="$(pkg-config --libs coinutils)" \
+    --with-coinutils-incdir="/usr/include/coin/"
   make
   make DESTDIR=$PKG install
+  rm -fr $PKG/usr/share/coin/doc
 }

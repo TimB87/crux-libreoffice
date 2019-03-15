@@ -1,6 +1,6 @@
 # Description: Library that provides a high-level interface to RDF data
 # URL: http://librdf.org/
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: mysql postgresql rasqal unixodbc
 
 name=redland

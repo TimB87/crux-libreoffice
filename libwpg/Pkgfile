@@ -1,6 +1,6 @@
 # Description: Library for importing and converting Corel WordPerfect(tm) Graphics images
 # URL: https://libwpg.sourceforge.net/
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: libwpd zlib
 
 name=libwpg

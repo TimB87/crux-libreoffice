@@ -1,6 +1,6 @@
 # Description: Library for import of reflowable e-book formats.
 # URL: http://sourceforge.net/projects/libebook/
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: icu liblangtag librevenge
 
 name=libe-book

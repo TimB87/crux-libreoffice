@@ -1,6 +1,6 @@
 # Description: a library for calculating the results of formula expressions stored in multiple named targets
 # URL: https://gitlab.com/ixion/ixion
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: mdds py3boost
 
 name=libixion

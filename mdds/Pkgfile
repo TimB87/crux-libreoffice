@@ -1,6 +1,6 @@
 # Description: A collection of multi-dimensional data structures and indexing algorithms
 # URL: https://gitlab.com/mdds/mdds
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: boost
 
 name=mdds
@@ -12,4 +12,5 @@ build() {
   cd $name-$version
   ./autogen.sh --prefix=/usr
   make DESTDIR=$PKG install
+  rm -fr $PKG/usr/share/doc
 }

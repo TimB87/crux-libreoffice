@@ -1,6 +1,6 @@
 # Description: Library providing ability to interpret and import visio diagrams
 # URL: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: icu librevenge libxml2
 
 name=libvisio

@@ -1,6 +1,6 @@
 # Description: CorelDraw file format importer library for LibreOffice
 # URL: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: icu lcms2 librevenge
 
 name=libcdr

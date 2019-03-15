@@ -166,9 +166,3 @@ drwxr-xr-x	root/root	usr/share/coin/Data/miplib3/
 -rw-r--r--	root/root	usr/share/coin/Data/miplib3/swath.gz
 -rw-r--r--	root/root	usr/share/coin/Data/miplib3/vpm1.gz
 -rw-r--r--	root/root	usr/share/coin/Data/miplib3/vpm2.gz
-drwxr-xr-x	root/root	usr/share/coin/doc/
-drwxr-xr-x	root/root	usr/share/coin/doc/Cbc/
--rw-r--r--	root/root	usr/share/coin/doc/Cbc/AUTHORS
--rw-r--r--	root/root	usr/share/coin/doc/Cbc/LICENSE
--rw-r--r--	root/root	usr/share/coin/doc/Cbc/README
--rw-r--r--	root/root	usr/share/coin/doc/Cbc/cbc_addlibs.txt

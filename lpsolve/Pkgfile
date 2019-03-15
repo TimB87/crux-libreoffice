@@ -1,6 +1,6 @@
 # Description: a Mixed Integer Linear Programming (MILP) solver
 # URL: http://lpsolve.sourceforge.net/
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on:
 
 name=lpsolve

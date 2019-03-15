@@ -1,6 +1,6 @@
 # Description: COIN-OR Open Solver Interface
 # URL: https://projects.coin-or.org/Osi
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: coin-or-coinutils
 
 name=coin-or-osi
@@ -18,4 +18,5 @@ build() {
   make
   PKG_CONFIG_LIBDIR="${PKG}/usr/lib/pkgconfig/" \
   make DESTDIR="$PKG" install
+  rm -fr $PKG/usr/share/coin/doc
 }

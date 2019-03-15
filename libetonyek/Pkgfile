@@ -1,6 +1,6 @@
 # Description: Library and a set of tools for reading and converting Apple Keynote presentations
 # URL: https://wiki.documentfoundation.org/DLP/Libraries/libetonyek
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: liblangtag librevenge
 
 name=libetonyek

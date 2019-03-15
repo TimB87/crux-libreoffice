@@ -1,6 +1,6 @@
-# Description:
-# URL:
-# Maintainer:
+# Description: Utility for verifying hash sums of files
+# URL: https://github.com/rhash/RHash
+# Maintainer: crux libreoffice team
 # Depends on:
 
 name=rhash
@@ -9,11 +9,10 @@ release=1
 source=(https://downloads.sourceforge.net/$name/$name-$version-src.tar.gz)
 
 build() {
-	cd RHash-$version
-    ./configure --prefix=/usr \
-            --sysconfdir=/etc \
-            --extra-cflags="$CFLAGS" \
-            --extra-ldflags="$LDFLAGS"
-    make
-    make DESTDIR=$PKG install
+cd RHash-$version
+  ./configure --prefix=/usr \
+    --extra-cflags="$CFLAGS" \
+    --extra-ldflags="$LDFLAGS"
+  make
+  make DESTDIR=$PKG install
 }

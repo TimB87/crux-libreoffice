@@ -124,9 +124,3 @@ drwxr-xr-x	root/root	usr/share/coin/Data/Netlib/
 -rw-r--r--	root/root	usr/share/coin/Data/Netlib/vtpbase.mps.gz
 -rw-r--r--	root/root	usr/share/coin/Data/Netlib/wood1p.mps.gz
 -rw-r--r--	root/root	usr/share/coin/Data/Netlib/woodw.mps.gz
-drwxr-xr-x	root/root	usr/share/coin/doc/
-drwxr-xr-x	root/root	usr/share/coin/doc/Osi/
--rw-r--r--	root/root	usr/share/coin/doc/Osi/AUTHORS
--rw-r--r--	root/root	usr/share/coin/doc/Osi/LICENSE
--rw-r--r--	root/root	usr/share/coin/doc/Osi/README
--rw-r--r--	root/root	usr/share/coin/doc/Osi/osi_addlibs.txt

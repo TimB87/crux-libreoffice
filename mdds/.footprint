@@ -35,11 +35,5 @@ drwxr-xr-x	root/root	usr/include/mdds-1.4/mdds/multi_type_vector/
 -rw-r--r--	root/root	usr/include/mdds-1.4/mdds/trie_map_def.inl
 -rw-r--r--	root/root	usr/include/mdds-1.4/mdds/trie_map_itr.hpp
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/doc/
-drwxr-xr-x	root/root	usr/share/doc/mdds/
--rw-r--r--	root/root	usr/share/doc/mdds/AUTHORS
--rw-r--r--	root/root	usr/share/doc/mdds/COPYING
--rw-r--r--	root/root	usr/share/doc/mdds/NEWS
--rw-r--r--	root/root	usr/share/doc/mdds/README.md
 drwxr-xr-x	root/root	usr/share/pkgconfig/
 -rw-r--r--	root/root	usr/share/pkgconfig/mdds-1.4.pc

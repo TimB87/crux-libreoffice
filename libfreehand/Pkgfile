@@ -1,6 +1,6 @@
 # Description: a library for import of Aldus/Macromedia/Adobe FreeHand documents
 # URL: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: lcms2 librevenge
 
 name=libfreehand

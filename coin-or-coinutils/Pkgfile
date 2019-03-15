@@ -1,6 +1,6 @@
 # Description: COIN-OR collection of utility classes
 # URL: https://projects.coin-or.org/CoinUtils
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: glpk lapack
 
 name=coin-or-coinutils
@@ -18,4 +18,5 @@ build() {
   make
   PKG_CONFIG_LIBDIR="$PKG"/usr/lib/pkgconfig/ \
   make DESTDIR="$PKG" install
+  rm -fr $PKG/usr/share/coin/doc
 }

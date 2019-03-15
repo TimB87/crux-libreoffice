@@ -1,6 +1,6 @@
 # Description: an EPUB generator for librevenge
 # URL: https://sourceforge.net/projects/libepubgen/
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: librevenge
 
 name=libepubgen

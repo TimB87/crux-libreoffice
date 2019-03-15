@@ -1,6 +1,6 @@
 # Description: interface library to access/deal with tags for identifying languages
 # URL: http://tagoh.bitbucket.org/liblangtag/index.html
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: glib libxml2
 
 name=liblangtag

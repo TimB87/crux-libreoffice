@@ -1,6 +1,6 @@
 # Description: Microsoft Publisher file format parser library
 # URL: https://wiki.documentfoundation.org/DLP/Libraries/libmspub
-# Maintainer:
+# Maintainer: crux libreoffice team
 # Depends on: icu librevenge zlib
 
 name=libmspub
