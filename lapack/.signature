@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67iYJvLAU8xPc5DChg31nUsOpkIBW/+M62/378kkvRTJ3uqEc4HOJMjD9ZKjSkztuhqshyNHE7WjxaQvNfA/gpogw=
+SHA256 (Pkgfile) = 767e5b9ca19d9edfe57f71b1987050cd9e358dd63468811ed13954ad7ec072a9
+SHA256 (.footprint) = 56d25d64c389d5e4e8408c0e428054d7b95f649fe4a0de76c6c35efec5bd3368
+SHA256 (lapack-3.8.0.tar.gz) = deb22cc4a6120bff72621155a9917f485f96ef8319ac074a7afbc68aab88bcf6
