@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iXSAQ9hVd1eRZCf6zvcES8xvsTOZDlsgdDQfYOj8Zd/SAPlXfouCOsMbHKeH1JdB0Jq+432YIGAR+ywxa5yLsA8=
-SHA256 (Pkgfile) = c8e4fb2fbe1ce9393e2e4fe56b1760f7e65db40ea8e1287c0db8805d5fb0db13
+RWRlW2Ac5R67iYb3hiyu8Kq95mf0e6SgAQ1K/pM06tRWUbjAbprxSjNvHiIT/cj7kAzhdt3z3zfHchdo9t/a0mlLrYrUcwobAgI=
+SHA256 (Pkgfile) = 23f411996f2cdcc856e4768d2120b2b4eef8370f3f7f762de6fc754e95455b23
 SHA256 (.footprint) = 6ec2157f87c26b9048c6b1fcebcb0aba54dba1fc207773bff02936abc82b376d
 SHA256 (libpagemaker-0.0.4.tar.xz) = 66adacd705a7d19895e08eac46d1e851332adf2e736c566bef1164e7a442519d

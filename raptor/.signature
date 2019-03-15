@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67idVkSIknrwWkmJQHY6FfzMPbPlJ6d8/0YnNsaHsioorquJ6Iwmvl7HntMzbSk/VfjEmkwvrpA7/Ww1+Ca5AjzQ4=
-SHA256 (Pkgfile) = 681b06bd30372a28212cae47e38d89836e6d4c1ccc77886363099fbda25493ac
+RWRlW2Ac5R67iUF+SNyedTdh/hbmjzr/82bxws9B/AJIw0/cQLfb9BABvQP+jAosIi4aA4W58/rvnkxrF11QVaGI3JtvkXGywA0=
+SHA256 (Pkgfile) = 34717b07bcc6bb8343db08e495d905f0a0e76168623187eef2b870fa28a24860
 SHA256 (.footprint) = f13fc133df17089adcbf02c2bf01fe7fe7714b0ebb0b5691006da33ec3504d50
 SHA256 (raptor2-2.0.15.tar.gz) = ada7f0ba54787b33485d090d3d2680533520cd4426d2f7fb4782dd4a6a1480ed

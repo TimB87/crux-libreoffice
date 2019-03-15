@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iaWZH1iTwIPeg9IOcOPXpX0B8C/2ITbpSJM8s5zTIhdsX+/04DVSPjb7sWjQtMcGYFa+LnGb6PNLw6eAboV9PQ0=
-SHA256 (Pkgfile) = f9492288fd7528af85842fb6b4777d4fc111cb87ac4ef182685953a19791acf6
+RWRlW2Ac5R67iTmLdUl5B+nhjon2lwqH5yy9qAvYeo0RbfF0C/mLsRL8wmuC70cbb+WIitzdWMgGR/n4ubYX02oTXDl6AlgmLQA=
+SHA256 (Pkgfile) = f1f4c8dfcfac55772c3c984d59abbfb8230f2bd7764a3dbe0996bdbab954c94f
 SHA256 (.footprint) = af0f77dc5550fb119d4a87b0a0769a45d2b1ab4f654892dbbc633fc42be41456
 SHA256 (SuiteSparse-5.4.0.tar.gz) = 374dd136696c653e34ef3212dc8ab5b61d9a67a6791d5ec4841efb838e94dbd1
 SHA256 (suitesparse-no-demo.patch) = bf74cc13040595ab8bd3a4a9cf09ca407237f42a5b2ff86bee6a84d2d850dcdd

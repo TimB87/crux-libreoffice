@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iRlkvWcuWPFZb7kwMgIO9IEPEAZV18bUw5oouverlwpMKxbcPeHq2NCpbmc9eJXrrlAUmKbNPAvVbdz8xFnC4Ac=
-SHA256 (Pkgfile) = 956367026069abcbe4fdc348dcd9d381ad252316a6f0051c7e130789c79ca6cc
+RWRlW2Ac5R67iaSATzL7+1dH+KJkUGPLlhVeVCJgoZLJ5xvAtUAwz4REYiqcTPBKiFxbQ+KymLbMwVetjyIInDir2+CVdkOx8gc=
+SHA256 (Pkgfile) = fac043e21fd87d6aa70ba3dd9c700d6e77846027c707858eea9f4ba868f2265a
 SHA256 (.footprint) = 9b9394aca9355ea2225ce8c150bc72c888300facf4b10c337ab3270024e1ddd7
 SHA256 (mythes-1.2.4.tar.gz) = 1e81f395d8c851c3e4e75b568e20fa2fa549354e75ab397f9de4b0e0790a305f

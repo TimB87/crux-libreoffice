@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iSp0jY4FRZ1FQxbgr3Ev1w0OWgQ5xjIfJpDm63bJTjz25UdC22CtGH/ZggNZu7Z6u2HbjIuq7Fvwzw0pEgudxwk=
-SHA256 (Pkgfile) = 6b1ee20edd0ffb092ffa24b8aff9c3aa2c62dcd29a65f46ee5009af450e06f99
+RWRlW2Ac5R67ife3a9JHHGzOF/9namFVlGHk/Hqc0vuGRVgz5t601A+pwYu8fRseSDdZ29nX5+YX0fxBVcbSi+p1IZ57O4AW4QM=
+SHA256 (Pkgfile) = a7a84e66ef8db41056b9099fcb6845af00441d0dd99ca5150a1d60e93ae15c82
 SHA256 (.footprint) = 04270a51462a7b703152f5066f7f1b2a1054d8916d8de74dfc6df8535a8ee999
 SHA256 (libfreehand-0.1.2.tar.xz) = 0e422d1564a6dbf22a9af598535425271e583514c0f7ba7d9091676420de34ac

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iS5Qpnti8JB1uW6MJyHBeuyD8mVFVhC+qBAucBbtz7UuwsYP0CTjVsmiinOceHCOS1q/4yA5S+W6Lff+8P0n2w0=
-SHA256 (Pkgfile) = 5f47fafc6d1fa6e4cc67c74efe0ad2dac13c0ce9a94dba95453ce1e08293c163
+RWRlW2Ac5R67iSn6b/kBiXA6Auh8d2YMm9H4dU39OnamiltC5HWyLTCQeukCNcD5OBO8kEajKOiQwKbdMeSzFahoeUfi7GLp9QU=
+SHA256 (Pkgfile) = 14d543d3951d16b5abef8550f44e0a5910176886bd60704aa99e2d14e5a50b76
 SHA256 (.footprint) = cbb684541f6bc60a94475564810159beb1217ba8a454e6c590dfa6ae13ce4994
 SHA256 (libcdr-0.1.5.tar.xz) = 6ace5c499a8be34ad871e825442ce388614ae2d8675c4381756a7319429e3a48

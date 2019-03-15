@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iazu1ohb3EnsvrhjLy67vN+FWwQ/KJ6CUt0u0WRsleLp4xpOtdkjCmDONfwB/qcFdX0+zXEt5ry8pRlT6OoX7Ak=
-SHA256 (Pkgfile) = 2964c45173396c3efef6ce9af5ff131e328503bbb232996ef86d222b68032acb
+RWRlW2Ac5R67id4rCVexSMqFZZuyMwQoKKn5QxYKYefWHAB/nR8ASTc+GxR1bKbtcSnHZsJLMogrxLn+t4M5lcL+YAkMTN4DkwI=
+SHA256 (Pkgfile) = 3318895df8f2d2c456f90998f66d5de7ce342b1db67230e1f81e32c6c0ff370a
 SHA256 (.footprint) = 771cc26f60e73506324a01d2358e2fcf2a2714cf3c88de2fa08a9987367d9a49
 SHA256 (liborcus-0.14.1.tar.xz) = f2d1dc840fa6a5358d956a7cb746c36b857d92190de0ac5b40b2841ed408daab

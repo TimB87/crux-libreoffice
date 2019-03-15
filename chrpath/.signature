@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwGhUlUiH5hOXI+EL04SngQ71669+kBMN1rjJDAOD+2n7+Ik2l2h23b3sBmzsM27O16xAGzjBYn+c5gN6rtc3rgw=
-SHA256 (Pkgfile) = 38e3746cca7e3d4846f3a3597d0f6fd19063382b4b7ed77d8bdf302cefeb6a4e
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67if8XuvRZmHP49rsxyJtulbRfoIeedc4HxhiCXKcNxiXkrdYcU9SFov93YyHMhle22XybCmwCFFsX3rJTDatTHww=
+SHA256 (Pkgfile) = a29d205b0a5ffe54921695a3f3cb39e53125b8f89f0a760ac4964dabc7a3614c
 SHA256 (.footprint) = 63bf775cb82da089e4f0bd8e323b033d906ac04eab1858e2a603855d440ea955
 SHA256 (chrpath_0.16.orig.tar.gz) = bb0d4c54bac2990e1bdf8132f2c9477ae752859d523e141e72b3b11a12c26e7b

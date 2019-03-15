@@ -478,8 +478,6 @@ drwxr-xr-x	root/root	usr/lib/libreoffice/program/wizards/ui/event/
 -rw-r--r--	root/root	usr/lib/libreoffice/program/wizards/ui/event/__init__.py (EMPTY)
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/xid-fullscreen-on-all-monitors
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/xpdfimport
-drwxr-xr-x	root/root	usr/lib/libreoffice/readmes/
--rw-r--r--	root/root	usr/lib/libreoffice/readmes/README_en-US
 drwxr-xr-x	root/root	usr/lib/libreoffice/share/
 drwxr-xr-x	root/root	usr/lib/libreoffice/share/Scripts/
 drwxr-xr-x	root/root	usr/lib/libreoffice/share/Scripts/python/
