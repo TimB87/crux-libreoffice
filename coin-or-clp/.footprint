@@ -73,9 +73,3 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/osi-clp.pc
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/coin/
-drwxr-xr-x	root/root	usr/share/coin/doc/
-drwxr-xr-x	root/root	usr/share/coin/doc/Clp/
--rw-r--r--	root/root	usr/share/coin/doc/Clp/AUTHORS
--rw-r--r--	root/root	usr/share/coin/doc/Clp/LICENSE
--rw-r--r--	root/root	usr/share/coin/doc/Clp/README
--rw-r--r--	root/root	usr/share/coin/doc/Clp/clp_addlibs.txt
