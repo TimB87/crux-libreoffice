@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67ibvvhWwQnNYbKK7mFbSwN9GLI8G2qVefI/qqfEdVfpePKJHcYQRuflWqoe1dFpx2tLVn3HTHsnPaz0bRpdDybQU=
+SHA256 (Pkgfile) = dcea0a362efbc19334e34de14757a8b59e35bc68c3ecf8466fd8bc1816100bf0
+SHA256 (.footprint) = f9fbfd8f04aef468fbb8fbeb290e5a22d09baef80e20191c58bf408e8f1c0068
+SHA256 (harfbuzz-2.3.1.tar.bz2) = f205699d5b91374008d6f8e36c59e419ae2d9a7bb8c5d9f34041b9a5abcae468

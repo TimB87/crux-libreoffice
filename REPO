@@ -50,6 +50,7 @@ d:glm
 d:py3boost
 d:lapack
 d:graphite2
+d:harfbuzz
 f:f9bce8197704b1d2ebd47c37648f1a17:clucene/fix_zlib_detections.diff
 f:c3c77ab7764fd37465a6af94f09cbd1e:clucene/clucene-core-2.3.3.4-install_contribs_lib.patch
 f:28faf56ff95eb1f5239885ad5060e28f:clucene/clucene-core-2.3.3.4-pkgconfig.patch
@@ -228,3 +229,6 @@ f:8fea39da4de24068b519dd039cced32c:lapack/.signature
 f:871374bbf549e6e528953aa456fd0fde:graphite2/.footprint
 f:2b988a5fcdeb550b233593ce625b17ea:graphite2/.signature
 f:d3e12a1d079155d5185103cc0f0b6781:graphite2/Pkgfile
+f:0d66ca197804b6717950a2df328c8342:harfbuzz/.footprint
+f:ed3a85f123f9d36fb54007f531d60907:harfbuzz/Pkgfile
+f:42c9d98d5923321a5cdca2eb30bfe7f2:harfbuzz/.signature
