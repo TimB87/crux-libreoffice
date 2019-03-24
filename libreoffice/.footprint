@@ -670,8 +670,6 @@ drwxr-xr-x	root/root	usr/lib/libreoffice/program/wizards/ui/event/
 -rw-r--r--	root/root	usr/lib/libreoffice/program/wizards/ui/event/__init__.py (EMPTY)
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/xid-fullscreen-on-all-monitors
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/xpdfimport
-drwxr-xr-x	root/root	usr/lib/libreoffice/readmes/
--rw-r--r--	root/root	usr/lib/libreoffice/readmes/README_en-US
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/bin/
 -rwxr-xr-x	root/root	usr/lib/libreoffice/sdk/bin/cppumaker
@@ -1080,7 +1078,6 @@ drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/DevelopersGuide/ScriptingF
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/DevelopersGuide/ScriptingFramework/ScriptSelector/ScriptSelector/soffice.gif
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/DevelopersGuide/ScriptingFramework/ScriptSelector/build.xml
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/DevelopersGuide/Spreadsheet/
--rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/DevelopersGuide/Spreadsheet/DataPilotReadme.txt
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/DevelopersGuide/Spreadsheet/ExampleAddIn.components
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/DevelopersGuide/Spreadsheet/ExampleAddIn.java
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/DevelopersGuide/Spreadsheet/ExampleAddIn.ods
@@ -1116,7 +1113,6 @@ drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/DevelopersGuide/UCB/data/
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/OLE/
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/OLE/activex/
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/OLE/activex/Makefile
--rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/OLE/activex/README.txt
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/OLE/activex/SOActiveX.cpp
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/OLE/activex/SOActiveX.h
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/OLE/activex/SOActiveX.rgs
