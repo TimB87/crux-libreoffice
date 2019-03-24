@@ -1,7 +1,7 @@
 # Description: library for REVerses ENGineered formats filters
 # URL: http://sf.net/p/libwpd/librevenge/
 # Maintainer: crux libreoffice team, tbier at posteo dot de
-# Depends on: boost
+# Depends on: boost cppunit
 
 name=librevenge
 version=0.0.4
