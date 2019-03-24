@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67icNM0gI8nco1h+GXjiDuRRtRcTH2u3dZnYgk5m4SKaQjrsk9Ci4U2p2hc1/6in3tiYvNs2pYcB6RA1xRIZXeuQ4=
-SHA256 (Pkgfile) = a2ee40124f9fa4433af59e13ea85c28423e339f0b69d09a92cf2007ffc2a82d6
+RWRlW2Ac5R67iawSeODmdvUHNCu0woo9UhEpdNesx6xoXEMxAY9iKql/Y/3wKXBaCQUHJtXKuCV63VgazlnRnUpiGLWBS+7ZVA4=
+SHA256 (Pkgfile) = 35f41579ed18e39b8f66707d66b2733c5bfea01ac214222a14695325a2b52b38
 SHA256 (.footprint) = 46d39f04e6636a7982c25335c12e465ae0fc81c0d3a42a0f59fe6caa0a91abf7
 SHA256 (libetonyek-0.1.9.tar.xz) = e61677e8799ce6e55b25afc11aa5339113f6a49cff031f336e32fa58635b1a4a
