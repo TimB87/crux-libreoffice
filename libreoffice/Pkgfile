@@ -1,7 +1,7 @@
 # Description: LibreOffice is a powerful office suite
 # URL: https://www.libreoffice.org/
 # Maintainer: crux libreoffice team, tbier at posteo dot de
-# Depends on: avahi clucene coin-or-mp cups dconf fakeroot fontforge gpgme graphite2 gst-plugins-base gtk gtk3 harfbuzz-icu hunspell hyphen krb5 libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libtommath libvisio libwebp libwpg libwps libzmf lpsolve neon poppler redland sane xmlsec
+# Depends on: avahi clucene coin-or-mp cups dconf fakeroot fontforge gpgme graphite2 gst-plugins-base gtk gtk3 harfbuzz-icu hunspell hyphen krb5 libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libtommath libvisio libwebp libwpg libwps libzmf lpsolve neon poppler redland sane xmlsec zip
 
 name=libreoffice
 version=6.2.2.2
@@ -78,5 +78,5 @@ build() {
   # cleanup
   rm -fr $PKG/usr/share/libreoffice/sdk
   rm -fr $PKG/usr/share/doc
-  find $PKG -iname "*readme*" -exec rm '{}' \+
+  find $PKG -iname "*readme*" -exec rm -fr '{}' \+
 }

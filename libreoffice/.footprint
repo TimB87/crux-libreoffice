@@ -1129,7 +1129,6 @@ drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/OLE/activex/
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/OLE/activex/so_activex.rc
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/OLE/vbscript/
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/OLE/vbscript/WriterDemo.vbs
--rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/OLE/vbscript/readme.txt
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/basic/
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/basic/drawing/
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/basic/drawing/dirtree.txt
@@ -1305,7 +1304,6 @@ drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/python/toolpanel/META-INF/
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/python/toolpanel/META-INF/manifest.xml
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/python/toolpanel/Makefile
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/python/toolpanel/description.xml
--rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/python/toolpanel/readme
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/examples/python/toolpanel/toolPanelPocBasic/
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/python/toolpanel/toolPanelPocBasic/Module1.xba
 -rw-r--r--	root/root	usr/lib/libreoffice/sdk/examples/python/toolpanel/toolPanelPocBasic/dialog.xlb
