@@ -253,9 +253,9 @@ f:0d3f90705096d2119a3563516fdb379c:libdaemon/.md5sum
 f:986103dfde73d97ec729f76239f6aa9c:libdaemon/Pkgfile
 f:5555ae330d4cbe23a560b9ecf6ae70cf:libdaemon/.signature
 f:b9b0631dfbfbba4d1876bbde1eb67f72:dconf/.footprint
-f:15e42338977bbb37f3b458216e9a7501:dconf/Pkgfile
+f:3376e03dc0830f2a3133a7a99287a36f:dconf/Pkgfile
 f:466934519bde24f8597d22c5c67a39f9:dconf/.md5sum
-f:8a5dba66cc35087ec16f0a56e4dda2ad:dconf/.signature
+f:a3f3bc311c3a0c28665a434700e8f20b:dconf/.signature
 f:361048e9dbf7b1123dc00157f40dc370:ragel/.footprint
 f:97a0a2cc1c782ed1ff0b9475fd41505e:ragel/Pkgfile
 f:f2a345b2db1a23cf7b2529479d2a126a:ragel/.signature
