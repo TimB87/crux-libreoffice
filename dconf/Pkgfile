@@ -2,7 +2,7 @@
 # URL: http://wiki.gnome.org/Projects/dconf
 # Maintainer: crux libreoffice team, tbier at posteo dot de
 # Packager: Matt Housh, jaeger at crux dot ninja
-# Depends on: meson ninja vala
+# Depends on: meson ninja vala docbook-docbook-xsl
 
 name=dconf
 version=0.30.0
@@ -13,7 +13,8 @@ build() {
   cd $name-$version
   meson builddir \
     --prefix=/usr \
-    --libexecdir=/usr/lib/$name
+    --libexecdir=/usr/lib/$name \
+    -Dbash_completion=false
   ninja -C builddir
   DESTDIR=$PKG ninja -C builddir install
 }
