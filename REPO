@@ -251,10 +251,10 @@ f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:0d3f90705096d2119a3563516fdb379c:libdaemon/.md5sum
 f:986103dfde73d97ec729f76239f6aa9c:libdaemon/Pkgfile
 f:5555ae330d4cbe23a560b9ecf6ae70cf:libdaemon/.signature
-f:dc159c9f425669ea372205f8c25bd5ac:dconf/.footprint
-f:b36b86236a14a60f0d5d67d9424207b6:dconf/Pkgfile
+f:b9b0631dfbfbba4d1876bbde1eb67f72:dconf/.footprint
+f:15e42338977bbb37f3b458216e9a7501:dconf/Pkgfile
 f:466934519bde24f8597d22c5c67a39f9:dconf/.md5sum
-f:8d708df31f44ad2f6ec4dab9010b9495:dconf/.signature
+f:8a5dba66cc35087ec16f0a56e4dda2ad:dconf/.signature
 f:361048e9dbf7b1123dc00157f40dc370:ragel/.footprint
 f:97a0a2cc1c782ed1ff0b9475fd41505e:ragel/Pkgfile
 f:f2a345b2db1a23cf7b2529479d2a126a:ragel/.signature
