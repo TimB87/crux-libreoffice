@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67iQmek+JH7M0YtnaB575DjMPlu1QIU8kJSonoBaZ4eJy8U3pidNY2bhVljCIzM/U/7ZQkQC8KLIdZ9zUE26asrQY=
+SHA256 (Pkgfile) = b8a4fdae01ed741a0827cd10a0d1c1f76278121b179d61e8c9567a76ec877d71
+SHA256 (.footprint) = bbf38876320560d40e51b8c983b96ab310d4c23a775fb5c1cff06542b73401dc
+SHA256 (cups-2.2.11-source.tar.gz) = f58010813fd6903f690cdb0c0b91e4d1bc9e5b9570c28734229ba3ed2908b76c
+SHA256 (cups) = 61a1deceebcee0437e5c3f987621abf24642b6517961336ed4f26384ddab5639
