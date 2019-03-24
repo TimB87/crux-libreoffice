@@ -51,6 +51,8 @@ d:py3boost
 d:lapack
 d:graphite2
 d:harfbuzz
+d:avahi
+d:cups
 f:f9bce8197704b1d2ebd47c37648f1a17:clucene/fix_zlib_detections.diff
 f:c3c77ab7764fd37465a6af94f09cbd1e:clucene/clucene-core-2.3.3.4-install_contribs_lib.patch
 f:28faf56ff95eb1f5239885ad5060e28f:clucene/clucene-core-2.3.3.4-pkgconfig.patch
@@ -232,3 +234,13 @@ f:d3e12a1d079155d5185103cc0f0b6781:graphite2/Pkgfile
 f:0d66ca197804b6717950a2df328c8342:harfbuzz/.footprint
 f:ed3a85f123f9d36fb54007f531d60907:harfbuzz/Pkgfile
 f:42c9d98d5923321a5cdca2eb30bfe7f2:harfbuzz/.signature
+f:5c90e86c7ca398605605ec31d17fd18e:avahi/avahi-daemon.rc
+f:0b8b02610ea0e67fdcc62bba11250d4c:avahi/pre-install
+f:413c7e2bf233badd23d8d8719883d9b7:avahi/.footprint
+f:3de0652d5bf88d820e83c2f281548a8a:avahi/Pkgfile
+f:7995c6edc252262ccc2d94c1da513958:avahi/.signature
+f:f396b1bc7059b06bf4ebd2e5a006e089:cups/.footprint
+f:f040b4dfadb1c565a76fbc23ffdd5d3a:cups/Pkgfile
+f:80a1477c6ad10eeb6c7bcaae7c50cf9b:cups/README
+f:a416044375fa7c0318fcfdc5ecb0028f:cups/cups
+f:b7c19057eec852a1c973d11aad78893f:cups/.signature
