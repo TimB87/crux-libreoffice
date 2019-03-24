@@ -108,8 +108,8 @@ f:7ad4c21b1782cc63ece4300754466a33:liborcus/.footprint
 f:d803e40f8c991258936852c38db858c9:liborcus/.signature
 f:8a3cf0028ca78d113e8276f6c8aeb69b:liborcus/Pkgfile
 f:9f95af10f405aff496102c46fb26a7e6:librevenge/.footprint
-f:065aa5cb517ad8609c6d6285ab475f62:librevenge/Pkgfile
-f:2874d97b895f4d58fd4db84fb8ec7097:librevenge/.signature
+f:14e5e1c5fa43189bfe945a688a8e5141:librevenge/Pkgfile
+f:340672b65639e9e5e2eb14e59a1128cc:librevenge/.signature
 f:959007d3daba7a788b05aa50985b8281:libtommath/.footprint
 f:f490c16d3a94df6ffae88cb84eddd925:libtommath/.signature
 f:a7d8092280e5f2a05aaa9bb2da3b10ee:libtommath/Pkgfile
