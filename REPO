@@ -53,6 +53,9 @@ d:graphite2
 d:harfbuzz
 d:avahi
 d:cups
+d:libdaemon
+d:dconf
+d:ragel
 f:f9bce8197704b1d2ebd47c37648f1a17:clucene/fix_zlib_detections.diff
 f:c3c77ab7764fd37465a6af94f09cbd1e:clucene/clucene-core-2.3.3.4-install_contribs_lib.patch
 f:28faf56ff95eb1f5239885ad5060e28f:clucene/clucene-core-2.3.3.4-pkgconfig.patch
@@ -244,3 +247,14 @@ f:f040b4dfadb1c565a76fbc23ffdd5d3a:cups/Pkgfile
 f:80a1477c6ad10eeb6c7bcaae7c50cf9b:cups/README
 f:a416044375fa7c0318fcfdc5ecb0028f:cups/cups
 f:b7c19057eec852a1c973d11aad78893f:cups/.signature
+f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
+f:0d3f90705096d2119a3563516fdb379c:libdaemon/.md5sum
+f:986103dfde73d97ec729f76239f6aa9c:libdaemon/Pkgfile
+f:5555ae330d4cbe23a560b9ecf6ae70cf:libdaemon/.signature
+f:dc159c9f425669ea372205f8c25bd5ac:dconf/.footprint
+f:b36b86236a14a60f0d5d67d9424207b6:dconf/Pkgfile
+f:466934519bde24f8597d22c5c67a39f9:dconf/.md5sum
+f:8d708df31f44ad2f6ec4dab9010b9495:dconf/.signature
+f:361048e9dbf7b1123dc00157f40dc370:ragel/.footprint
+f:97a0a2cc1c782ed1ff0b9475fd41505e:ragel/Pkgfile
+f:f2a345b2db1a23cf7b2529479d2a126a:ragel/.signature
