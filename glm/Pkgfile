@@ -1,7 +1,7 @@
 # Description: C++ mathematics library for 3D software based on the OpenGL Shading Language (GLSL) specification
 # URL: http://glm.g-truc.net
 # Maintainer: crux libreoffice team, tbier at posteo dot de Tim Biermann, tbier at posteo dot de
-# Depends on:
+# Depends on: cmake
 
 name=glm
 version=0.9.9.3
