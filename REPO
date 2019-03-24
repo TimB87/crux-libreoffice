@@ -221,8 +221,8 @@ f:262892708d2f3851d2f4c45c42725803:lpsolve/.footprint
 f:bb880b39720de1e0fe3864df1d903fe8:lpsolve/.signature
 f:4e82fe8473b05069d89bfd15791d6525:lpsolve/Pkgfile
 f:13fb879285a9f711538c5114659a7a16:glm/.footprint
-f:17f55979ab836b20444d7702af7dfdc7:glm/.signature
-f:fb6e2279d16a4b259789decc893524fb:glm/Pkgfile
+f:18e3309ad20164e9c171bbab758c1923:glm/Pkgfile
+f:b43a07b83cb07b23ccb6c5ab5f2b9df6:glm/.signature
 f:ac3c156440c91d98359711add2b0b328:crux-libreoffice.httpup
 f:a473c2b7f4ab2f0619b48586f714fd31:crux-libreoffice.pub
 f:cce2499cbb96c5eb03744178ca16a530:py3boost/.footprint
