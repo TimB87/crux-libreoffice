@@ -2,7 +2,7 @@
 # URL: http://wiki.gnome.org/Projects/dconf
 # Maintainer: crux libreoffice team, tbier at posteo dot de
 # Packager: Matt Housh, jaeger at crux dot ninja
-# Depends on: meson ninja vala docbook-docbook-xsl
+# Depends on: meson ninja vala docbook-xsl
 
 name=dconf
 version=0.30.0
