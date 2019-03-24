@@ -122,8 +122,8 @@ f:370550bbbd3f35942e1b2f5e95573fe8:rhash/Pkgfile
 f:e021232d9aa3f10f56fcf9382c3c5d14:libreoffice/boost-1.69.patch
 f:13d67482056d143419ca21c8c85333c9:libreoffice/makefile.in.patch
 f:e260604974d9f717915ea03693490df9:libreoffice/.footprint
-f:b378ef48d5cc4a3bca17c8f8c9206050:libreoffice/Pkgfile
-f:57366ba0f0aa593f092cfaf518e8edee:libreoffice/.signature
+f:882c22cba53570411be1fc7920080f6e:libreoffice/Pkgfile
+f:09c09ac32471957d70788676b699e7db:libreoffice/.signature
 f:76565d652265b5db14b46da9c68e32ef:unixodbc/.footprint
 f:f158a49c50471d2a9a6da7301e1e19d4:unixodbc/.signature
 f:83d515fab03b40c25644e3dabb2dd640:unixodbc/Pkgfile
