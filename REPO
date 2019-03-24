@@ -100,7 +100,7 @@ f:480c43cac299e27dde9a4e126a7a9e7d:libcmis/Pkgfile
 f:8302910a53e90316a55f77c881e46b74:libixion/.footprint
 f:21270f66156314a3234047a1b6f244f2:libixion/.signature
 f:f7c2e8db8637bd9c4e2ae0bbd5d8db32:libixion/Pkgfile
-f:0ccc1e9c34356af75120c882be216bf8:libixion/README
+f:8101d9cecfd0442b194771065394427c:libixion/README
 f:d6bbb32c718f22531e83441c4231466d:liblangtag/.footprint
 f:7299c7f60cdbe5e4fa85cadea69db77b:liblangtag/.signature
 f:ce805458c1df168f679894eb4c6c5f90:liblangtag/Pkgfile
@@ -121,9 +121,9 @@ f:73d7d4ea8297778f445579c562ef0d7b:rhash/.signature
 f:370550bbbd3f35942e1b2f5e95573fe8:rhash/Pkgfile
 f:e021232d9aa3f10f56fcf9382c3c5d14:libreoffice/boost-1.69.patch
 f:13d67482056d143419ca21c8c85333c9:libreoffice/makefile.in.patch
-f:51a06cdc09ed1f47def14499f1066a01:libreoffice/.footprint
-f:b2c77b7df891364020916e57e0cc67dc:libreoffice/Pkgfile
-f:bbe67e7ecb73fb1edb906262afc7a63f:libreoffice/.signature
+f:e260604974d9f717915ea03693490df9:libreoffice/.footprint
+f:b378ef48d5cc4a3bca17c8f8c9206050:libreoffice/Pkgfile
+f:57366ba0f0aa593f092cfaf518e8edee:libreoffice/.signature
 f:76565d652265b5db14b46da9c68e32ef:unixodbc/.footprint
 f:f158a49c50471d2a9a6da7301e1e19d4:unixodbc/.signature
 f:83d515fab03b40c25644e3dabb2dd640:unixodbc/Pkgfile
@@ -228,6 +228,7 @@ f:a473c2b7f4ab2f0619b48586f714fd31:crux-libreoffice.pub
 f:cce2499cbb96c5eb03744178ca16a530:py3boost/.footprint
 f:f2546eba25278480ab79f6ae5a97f278:py3boost/.signature
 f:552c8f9d010aa0c1a5e50d53e12789ce:py3boost/Pkgfile
+f:8101d9cecfd0442b194771065394427c:py3boost/README
 f:1ba11edcaf4249437129244e902fa274:lapack/.footprint
 f:f62b70b5c0762a35a634b90e0305d51f:lapack/Pkgfile
 f:8fea39da4de24068b519dd039cced32c:lapack/.signature
