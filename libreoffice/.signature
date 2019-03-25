@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwD3ZfYrGOGUj4Vz3IgJoBGWrNju8iC9y3ZtLFNPHkFstVR31zgvwm+WYVUntONBevrWDWrhfO6z3ZHJ0jRI1YgY=
+untrusted comment: verify with /etc/ports/crux-libreoffice.pub
+RWRlW2Ac5R67iegLxgwoWCPDp/ntSZZmUlp6LOW9u1f0z7ati7Zms2VeXMsibb5+x3yQtDzqZtoQPdsdbQ6iIIncA72RipiD1Qc=
 SHA256 (Pkgfile) = ca2af7537267acced2536dd9d2809a38df9cbae3aa04aae62a5d8f74cea6118a
 SHA256 (.footprint) = aaca85f5d0a4f46dcfa8ba7ef296147616e872a1ec05323052ce5e60c694e6a2
 SHA256 (libreoffice-6.2.2.2.tar.xz) = b83ad3a8aa7bebf34db9e984d518a8f2248ed685e04be8373cfa87bb04e31f69
