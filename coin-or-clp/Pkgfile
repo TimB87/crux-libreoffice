@@ -4,7 +4,7 @@
 # Depends on: coin-or-osi suitesparse
 
 name=coin-or-clp
-version=1.17.0
+version=1.17.1
 release=1
 source=(https://www.coin-or.org/download/source/Clp/Clp-${version}.tgz)
 
