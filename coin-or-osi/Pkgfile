@@ -4,7 +4,7 @@
 # Depends on: coin-or-coinutils
 
 name=coin-or-osi
-version=0.108.2
+version=0.108.3
 release=1
 source=(https://www.coin-or.org/download/source/Osi/Osi-${version}.tgz)
 
