@@ -4,7 +4,7 @@
 # Depends on: glpk lapack
 
 name=coin-or-coinutils
-version=2.11.0
+version=2.11.1
 release=1
 source=(https://www.coin-or.org/download/source/CoinUtils/CoinUtils-$version.tgz)
 
