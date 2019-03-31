@@ -13,6 +13,9 @@ Please report errors.
   * install python3 first and issue those commands afterwards (CRUX 3.4 as a basis):
   * `ln -s /usr/include/python3.6m /usr/include/python3.6` `ln -s /usr/include/python3.6m /usr/include/python3` `ln -s /usr/lib/pkgconfig/python-3.6.pc /usr/lib/pkgconfig/python3.pc`
   * the reason for that is that libixion and py3boost will fail to find python3 without them and the build will fail
+  * *not your first build?*
+    * if you have harfbuzz installed already, you need to rebuild it with graphite2 support
+    * if you have cups installed already, this REPO contains a version which builds with avahi installed
 3. `prt-get depinst libreoffice`
 4. ???
 5. Profit.
