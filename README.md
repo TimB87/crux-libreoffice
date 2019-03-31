@@ -9,9 +9,10 @@ Please report errors.
   * put crux-libreoffice.httpup and crux-libreoffice.pub in /etc/ports
   * edit /etc/prt-get.conf to contain "prtdir crux-libreoffice" before contrib
   * also allow scripts to be run or watch out for scripts you need to run (eg. when installing mysql)
-2. *your first build?*
-  * install python3 first and issue those commands afterwards (CRUX 3.4 as a basis):
-  * `ln -s /usr/include/python3.6m /usr/include/python3.6` `ln -s /usr/include/python3.6m /usr/include/python3` `ln -s /usr/lib/pkgconfig/python-3.6.pc /usr/lib/pkgconfig/python3.pc`
+2. 
+  * *your first build?*
+    * install python3 first and issue those commands afterwards (CRUX 3.4 as a basis):
+    * `ln -s /usr/include/python3.6m /usr/include/python3.6` `ln -s /usr/include/python3.6m /usr/include/python3` `ln -s /usr/lib/pkgconfig/python-3.6.pc /usr/lib/pkgconfig/python3.pc`
   * the reason for that is that libixion and py3boost will fail to find python3 without them and the build will fail
   * *not your first build?*
     * if you have harfbuzz installed already, you need to rebuild it with graphite2 support
