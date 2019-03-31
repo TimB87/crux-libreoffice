@@ -4,7 +4,7 @@
 # Depends on: coin-or-cgl
 
 name=coin-or-cbc
-version=2.10.0
+version=2.10.1
 release=1
 source=(https://www.coin-or.org/download/source/Cbc/Cbc-${version}.tgz)
 

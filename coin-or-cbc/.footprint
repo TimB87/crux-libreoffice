@@ -81,17 +81,17 @@ drwxr-xr-x	root/root	usr/include/coin/
 -rw-r--r--	root/root	usr/include/coin/OsiCbcSolverInterface.hpp
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libCbc.la
-lrwxrwxrwx	root/root	usr/lib/libCbc.so -> libCbc.so.3.10.0
-lrwxrwxrwx	root/root	usr/lib/libCbc.so.3 -> libCbc.so.3.10.0
--rwxr-xr-x	root/root	usr/lib/libCbc.so.3.10.0
+lrwxrwxrwx	root/root	usr/lib/libCbc.so -> libCbc.so.3.10.1
+lrwxrwxrwx	root/root	usr/lib/libCbc.so.3 -> libCbc.so.3.10.1
+-rwxr-xr-x	root/root	usr/lib/libCbc.so.3.10.1
 -rwxr-xr-x	root/root	usr/lib/libCbcSolver.la
-lrwxrwxrwx	root/root	usr/lib/libCbcSolver.so -> libCbcSolver.so.3.10.0
-lrwxrwxrwx	root/root	usr/lib/libCbcSolver.so.3 -> libCbcSolver.so.3.10.0
--rwxr-xr-x	root/root	usr/lib/libCbcSolver.so.3.10.0
+lrwxrwxrwx	root/root	usr/lib/libCbcSolver.so -> libCbcSolver.so.3.10.1
+lrwxrwxrwx	root/root	usr/lib/libCbcSolver.so.3 -> libCbcSolver.so.3.10.1
+-rwxr-xr-x	root/root	usr/lib/libCbcSolver.so.3.10.1
 -rwxr-xr-x	root/root	usr/lib/libOsiCbc.la
-lrwxrwxrwx	root/root	usr/lib/libOsiCbc.so -> libOsiCbc.so.3.10.0
-lrwxrwxrwx	root/root	usr/lib/libOsiCbc.so.3 -> libOsiCbc.so.3.10.0
--rwxr-xr-x	root/root	usr/lib/libOsiCbc.so.3.10.0
+lrwxrwxrwx	root/root	usr/lib/libOsiCbc.so -> libOsiCbc.so.3.10.1
+lrwxrwxrwx	root/root	usr/lib/libOsiCbc.so.3 -> libOsiCbc.so.3.10.1
+-rwxr-xr-x	root/root	usr/lib/libOsiCbc.so.3.10.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/cbc.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/coindatamiplib3.pc
