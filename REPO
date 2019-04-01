@@ -203,8 +203,8 @@ f:b6e5ec8c9d27f4e102a7591130a0fb09:metis/.footprint
 f:d056e0b3c928329edafa732c8237f095:metis/Pkgfile
 f:1a75227d1c4c3ba75d4ca5358fce5442:metis/.signature
 f:5c10dcf90c235377a2bb41a68265ed34:intel-tbb/.footprint
-f:e9857f9c9ba275ee568bdac374afedd1:intel-tbb/Pkgfile
-f:2b335b5573219c830a662ba174675b89:intel-tbb/.signature
+f:23f9089eb31f9e3a281de51d7ac420ca:intel-tbb/Pkgfile
+f:743709fe3e0140f6d8d9f35bce4bb1b7:intel-tbb/.signature
 f:81f8cccd04bdc11964dc364c473bc105:libnumbertext/libnumbertext-updateautotools.patch
 f:9afcf27e20db0d59bed4589635f66000:libnumbertext/.footprint
 f:92f393e44f0e354f98ad578a5f87ad8c:libnumbertext/.signature
