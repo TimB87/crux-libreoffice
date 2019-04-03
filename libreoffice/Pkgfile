@@ -4,7 +4,7 @@
 # Depends on: avahi clucene coin-or-mp cups dconf fakeroot fontforge gpgme graphite2 gst-plugins-base gtk gtk3 harfbuzz-icu hunspell hyphen krb5 libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libtommath libvisio libwebp libwpg libwps libzmf lpsolve neon poppler redland sane xmlsec zip
 
 name=libreoffice
-version=6.2.2.2
+version=6.2.3.1
 release=1
 source=(
 http://downloadarchive.documentfoundation.org/libreoffice/old/$version/src/$name-$version.tar.xz
@@ -14,7 +14,7 @@ boost-1.69.patch)
 build() {
   cd $name-$version
   patch -Np0 -i ../makefile.in.patch
-  patch -Np0 -i ../boost-1.69.patch
+  #patch -Np0 -i ../boost-1.69.patch
 
   find -L . \
      \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
