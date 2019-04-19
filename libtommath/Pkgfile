@@ -4,7 +4,7 @@
 # Depends on:
 
 name=libtommath
-version=1.0.1
+version=1.1.0
 release=1
 source=(https://github.com/libtom/libtommath/releases/download/v$version/ltm-$version.tar.xz)
 
