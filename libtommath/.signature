@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iVkYrBeixkVybpxP9612rutUlkhaVWnpt0KjOyVU7sSjV6EgT4bcwjpa5dVusPccbxoEp13wWhHDr5FfTVhu+wg=
-SHA256 (Pkgfile) = c8d7dadf1ada3e5b4ffc3edcfe179e9791e7802b0223bf22e106de512cbb64a4
-SHA256 (.footprint) = e2c069f4866b0c126317a39fb80c4730c441a53bdcadcacf36c35b6671271a82
-SHA256 (ltm-1.0.1.tar.xz) = 47032fb39d698ce4cf9c9c462c198e6b08790ce8203ad1224086b9b978636c69
+RWRlW2Ac5R67iVLMTHGtwy5n8O43QRUi9dxe3OTDr9fzWK1EHvBM7X8lV0z2V8xFQHj0iNTBlcpb8g7lLUlD1+yy8UIiW3rR/wM=
+SHA256 (Pkgfile) = db49f265662ea3841f9f0e6c0ed236db2acd415bb53c8531113b95b6b27abec3
+SHA256 (.footprint) = f82c687fd3163f55f821c97bcb9c76653debbf89e29d3cab078135c49158543b
+SHA256 (ltm-1.1.0.tar.xz) = 90466c88783d1fe9f5c2364a69f5479f10d73ed616011be6196f35f7f1537ead
