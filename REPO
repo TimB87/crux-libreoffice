@@ -48,7 +48,6 @@ d:chrpath
 d:lpsolve
 d:glm
 d:py3boost
-d:lapack
 d:graphite2
 d:harfbuzz
 d:avahi
@@ -56,6 +55,7 @@ d:cups
 d:libdaemon
 d:dconf
 d:ragel
+d:openblas
 f:f9bce8197704b1d2ebd47c37648f1a17:clucene/fix_zlib_detections.diff
 f:c3c77ab7764fd37465a6af94f09cbd1e:clucene/clucene-core-2.3.3.4-install_contribs_lib.patch
 f:28faf56ff95eb1f5239885ad5060e28f:clucene/clucene-core-2.3.3.4-pkgconfig.patch
@@ -80,8 +80,8 @@ f:64c4ad5acc2302354976a7f163eac484:coin-or-clp/.footprint
 f:f3066d4e66b8e874150f29e391cf0958:coin-or-clp/Pkgfile
 f:6ce25f8bbe7e5a3caa3e2de47067e1cb:coin-or-clp/.signature
 f:9cfabb322370039cb1f8b874bffa514e:coin-or-coinutils/.footprint
-f:536c4c7a20d9cbf320ce6f9279826e32:coin-or-coinutils/Pkgfile
-f:1aeceb85e227493136bea3719a72c4f5:coin-or-coinutils/.signature
+f:7c747116f7529ed3c9e41470eb973723:coin-or-coinutils/Pkgfile
+f:aa479f71e90f957b494af18de4e61594:coin-or-coinutils/.signature
 f:ab924328e73d10780317edaa2d15caaa:coin-or-mp/.footprint
 f:d184cca397846008415b1d74c56461da:coin-or-mp/Pkgfile
 f:c858704bdce68aa4fa90ab17d395ccd6:coin-or-mp/.signature
@@ -197,8 +197,8 @@ f:2fb9d7c075b2bad968d9f4b56e8ccb24:glpk/.signature
 f:f721ce0e1738930a24701c8a0b567445:glpk/Pkgfile
 f:e457136a58d49cd2f2460f5275910e90:suitesparse/suitesparse-no-demo.patch
 f:95d8f56ff85704b2ac72d19f154301c3:suitesparse/.footprint
-f:47bcdcbc438bffa49f64df24b86a9e68:suitesparse/.signature
-f:7c924e0e435c0d3a0ed85f3b852c16e6:suitesparse/Pkgfile
+f:111524c5402f7146f3e778ae112d20ee:suitesparse/Pkgfile
+f:ba995cf40b80f3a62bec70998198bf18:suitesparse/.signature
 f:b6e5ec8c9d27f4e102a7591130a0fb09:metis/.footprint
 f:d056e0b3c928329edafa732c8237f095:metis/Pkgfile
 f:1a75227d1c4c3ba75d4ca5358fce5442:metis/.signature
@@ -229,9 +229,6 @@ f:cce2499cbb96c5eb03744178ca16a530:py3boost/.footprint
 f:f2546eba25278480ab79f6ae5a97f278:py3boost/.signature
 f:552c8f9d010aa0c1a5e50d53e12789ce:py3boost/Pkgfile
 f:8101d9cecfd0442b194771065394427c:py3boost/README
-f:1ba11edcaf4249437129244e902fa274:lapack/.footprint
-f:f62b70b5c0762a35a634b90e0305d51f:lapack/Pkgfile
-f:8fea39da4de24068b519dd039cced32c:lapack/.signature
 f:871374bbf549e6e528953aa456fd0fde:graphite2/.footprint
 f:d3e12a1d079155d5185103cc0f0b6781:graphite2/Pkgfile
 f:2b988a5fcdeb550b233593ce625b17ea:graphite2/.signature
@@ -259,3 +256,6 @@ f:a3f3bc311c3a0c28665a434700e8f20b:dconf/.signature
 f:361048e9dbf7b1123dc00157f40dc370:ragel/.footprint
 f:97a0a2cc1c782ed1ff0b9475fd41505e:ragel/Pkgfile
 f:f2a345b2db1a23cf7b2529479d2a126a:ragel/.signature
+f:ec718d25a8e9b0f87f781c1682100234:openblas/Pkgfile
+f:b21fd75e9d0cda3e4c5078f8f434e3b1:openblas/.footprint
+f:1d5025968e45096ddbd84cd144d422f8:openblas/.signature
