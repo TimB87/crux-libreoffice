@@ -1,7 +1,7 @@
 # Description: A collection of sparse matrix libraries
 # URL: http://faculty.cse.tamu.edu/davis/suitesparse.html
 # Maintainer: crux libreoffice team, tbier at posteo dot de
-# Depends on: intel-tbb lapack metis chrpath
+# Depends on: intel-tbb openblas metis chrpath
 
 name=suitesparse
 version=5.4.0
