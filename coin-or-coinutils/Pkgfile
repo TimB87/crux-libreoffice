@@ -4,7 +4,7 @@
 # Depends on: glpk openblas
 
 name=coin-or-coinutils
-version=2.11.1
+version=2.11.2
 release=1
 source=(https://www.coin-or.org/download/source/CoinUtils/CoinUtils-$version.tgz)
 
