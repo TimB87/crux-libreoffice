@@ -27,7 +27,6 @@ drwxrwxr-x	root/root	usr/include/tbb/compat/
 -rw-rw-r--	root/root	usr/include/tbb/flow_graph.h
 -rw-rw-r--	root/root	usr/include/tbb/flow_graph_abstractions.h
 -rw-rw-r--	root/root	usr/include/tbb/flow_graph_opencl_node.h
--rw-rw-r--	root/root	usr/include/tbb/gfx_factory.h
 -rw-rw-r--	root/root	usr/include/tbb/global_control.h
 -rw-rw-r--	root/root	usr/include/tbb/index.html
 drwxrwxr-x	root/root	usr/include/tbb/internal/
