@@ -79,9 +79,9 @@ f:0929a3b434c5090bb1ff30dc691d4c78:coin-or-cgl/.signature
 f:64c4ad5acc2302354976a7f163eac484:coin-or-clp/.footprint
 f:f3066d4e66b8e874150f29e391cf0958:coin-or-clp/Pkgfile
 f:6ce25f8bbe7e5a3caa3e2de47067e1cb:coin-or-clp/.signature
-f:9cfabb322370039cb1f8b874bffa514e:coin-or-coinutils/.footprint
-f:7c747116f7529ed3c9e41470eb973723:coin-or-coinutils/Pkgfile
-f:aa479f71e90f957b494af18de4e61594:coin-or-coinutils/.signature
+f:baf7e521e66848398bf62cc398e9243a:coin-or-coinutils/.footprint
+f:e7cfe6372d97ec0087e2a11b13294c0c:coin-or-coinutils/Pkgfile
+f:f202fbae6630fea499380362c05e6eed:coin-or-coinutils/.signature
 f:ab924328e73d10780317edaa2d15caaa:coin-or-mp/.footprint
 f:d184cca397846008415b1d74c56461da:coin-or-mp/Pkgfile
 f:c858704bdce68aa4fa90ab17d395ccd6:coin-or-mp/.signature
@@ -202,9 +202,9 @@ f:ba995cf40b80f3a62bec70998198bf18:suitesparse/.signature
 f:b6e5ec8c9d27f4e102a7591130a0fb09:metis/.footprint
 f:d056e0b3c928329edafa732c8237f095:metis/Pkgfile
 f:1a75227d1c4c3ba75d4ca5358fce5442:metis/.signature
-f:5c10dcf90c235377a2bb41a68265ed34:intel-tbb/.footprint
-f:23f9089eb31f9e3a281de51d7ac420ca:intel-tbb/Pkgfile
-f:743709fe3e0140f6d8d9f35bce4bb1b7:intel-tbb/.signature
+f:c8846aed7144337476c6af7b5d32d95e:intel-tbb/.footprint
+f:6fb074a580b700ca4c4314954f44195c:intel-tbb/Pkgfile
+f:9d050880e10eaed5287a6a8edd236dab:intel-tbb/.signature
 f:81f8cccd04bdc11964dc364c473bc105:libnumbertext/libnumbertext-updateautotools.patch
 f:9afcf27e20db0d59bed4589635f66000:libnumbertext/.footprint
 f:92f393e44f0e354f98ad578a5f87ad8c:libnumbertext/.signature
