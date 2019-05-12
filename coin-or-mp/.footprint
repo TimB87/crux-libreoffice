@@ -1,14 +1,6 @@
 drwxr-xr-x	root/root	home/
 drwxr-xr-x	root/root	home/pkgmk/
 drwxr-xr-x	root/root	home/pkgmk/work/
-drwxr-xr-x	root/root	home/pkgmk/work/pkg/
-drwxr-xr-x	root/root	home/pkgmk/work/pkg/usr/
-drwxr-xr-x	root/root	home/pkgmk/work/pkg/usr/share/
-drwxr-xr-x	root/root	home/pkgmk/work/pkg/usr/share/coin/
-drwxr-xr-x	root/root	home/pkgmk/work/pkg/usr/share/coin/doc/
-drwxr-xr-x	root/root	home/pkgmk/work/pkg/usr/share/coin/doc/CoinMP/
--rw-r--r--	root/root	home/pkgmk/work/pkg/usr/share/coin/doc/CoinMP/Makefile
--rw-r--r--	root/root	home/pkgmk/work/pkg/usr/share/coin/doc/CoinMP/example.c
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/coin/
