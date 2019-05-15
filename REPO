@@ -56,6 +56,7 @@ d:libdaemon
 d:dconf
 d:ragel
 d:openblas
+d:colm
 f:f9bce8197704b1d2ebd47c37648f1a17:clucene/fix_zlib_detections.diff
 f:c3c77ab7764fd37465a6af94f09cbd1e:clucene/clucene-core-2.3.3.4-install_contribs_lib.patch
 f:28faf56ff95eb1f5239885ad5060e28f:clucene/clucene-core-2.3.3.4-pkgconfig.patch
@@ -253,9 +254,12 @@ f:b9b0631dfbfbba4d1876bbde1eb67f72:dconf/.footprint
 f:3376e03dc0830f2a3133a7a99287a36f:dconf/Pkgfile
 f:466934519bde24f8597d22c5c67a39f9:dconf/.md5sum
 f:a3f3bc311c3a0c28665a434700e8f20b:dconf/.signature
-f:361048e9dbf7b1123dc00157f40dc370:ragel/.footprint
-f:97a0a2cc1c782ed1ff0b9475fd41505e:ragel/Pkgfile
-f:f2a345b2db1a23cf7b2529479d2a126a:ragel/.signature
+f:80ce09f789b9bde6d26aba64ea1afc09:ragel/.footprint
+f:a2114bd76d8f147ffb8765a4053549d1:ragel/Pkgfile
+f:d37f159705c496f1d737ab80fda3b2aa:ragel/.signature
 f:ec718d25a8e9b0f87f781c1682100234:openblas/Pkgfile
 f:b21fd75e9d0cda3e4c5078f8f434e3b1:openblas/.footprint
 f:1d5025968e45096ddbd84cd144d422f8:openblas/.signature
+f:fb0eed9346f2f8019400111f579f0733:colm/Pkgfile
+f:5c701ca0f55bccf8eb78cdadf609517e:colm/.footprint
+f:93ed34f85a2c6db546bc778a84f721cb:colm/.signature
