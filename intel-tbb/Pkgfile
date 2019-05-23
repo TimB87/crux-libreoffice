@@ -4,12 +4,12 @@
 # Depends on:
 
 name=intel-tbb
-version=2019.6
+version=2019.7
 release=1
-source=(https://github.com/01org/tbb/archive/2019_U6.tar.gz)
+source=(https://github.com/01org/tbb/archive/2019_U7.tar.gz)
 
 build() {
-  cd tbb-2019_U6
+  cd tbb-2019_U7
   make
   install -d $PKG/usr/lib
   install -m755 build/linux_*/*.so* $PKG/usr/lib
