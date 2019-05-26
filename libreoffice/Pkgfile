@@ -9,12 +9,11 @@ release=1
 source=(
 http://downloadarchive.documentfoundation.org/libreoffice/old/$version/src/$name-$version.tar.xz
 makefile.in.patch
-boost-1.69.patch)
+)
 
 build() {
   cd $name-$version
   patch -Np0 -i ../makefile.in.patch
-  #patch -Np0 -i ../boost-1.69.patch
 
   find -L . \
      \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
@@ -55,8 +54,6 @@ build() {
     --disable-werror
   touch sources.ver
   echo "lo_sources_ver=${version}" > sources.ver
-  cat sources.ver
-  #export LDFLAGS="-lboost_system"
   make build-nocheck
 
   pushd workdir/installation/LibreOffice/archive/install/en-US
