@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iXteFwuzDvFzTrEmeQeVP0FXxH/bdvpc0YwayV5choCzfmL3awxMJtTP+DSxBQnnF6YYm6w2D92af2I++lVUdwo=
-SHA256 (Pkgfile) = ef232a01f8af8c45173e3eebe79c6689dd6682a1540892242a7a50d05622b5a3
-SHA256 (.footprint) = fed7ae400c91772ec57e92b8ebdbda18b9d78adea2d4250a57c6a53f6fb7dd16
+RWRlW2Ac5R67icQNdi31zfqtM8FbHNRDP/ltsQnONfcKBE0+im0yfIYceJBv4FbxnE7QfHjAXV0mKcpciieV1kx9UMqABY7e7g4=
+SHA256 (Pkgfile) = c49b680bdcf3a44bae674adf8e58367ae3ff6c7831541cd58f3e8e47c67189ed
+SHA256 (.footprint) = 43e5149bd9aacf64646d387024b24d755af85c0a9835b4700b35ca9eee67aa19
 SHA256 (CoinMP-1.8.4.tgz) = 3459fb0ccbdd39342744684338984ac4cc153fb0434f4cae8cf74bd67490a38d
