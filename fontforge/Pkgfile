@@ -1,0 +1,22 @@
+# Description: Outline and bitmap font editor.
+# URL: https://fontforge.github.io/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: giflib libspiro libtool libwebp pango xorg-libxi zstd
+
+name=fontforge
+version=20190413
+release=1
+source=(https://github.com/fontforge/fontforge/archive/$version/$name-$version.tar.gz)
+build() {
+  cd $name-$version
+  ./bootstrap --force
+  ./configure \
+    --prefix=/usr \
+    --mandir=/usr/share/man \
+    --enable-python-extension \
+    --enable-woff2 \
+    --enable-gdk
+  make
+  make install DESTDIR=$PKG
+  rm -fr $PKG/usr/share/{doc,locale}
+}
