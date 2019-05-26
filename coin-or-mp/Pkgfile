@@ -5,7 +5,7 @@
 
 name=coin-or-mp
 version=1.8.4
-release=2
+release=3
 source=(https://www.coin-or.org/download/source/CoinMP/CoinMP-$version.tgz)
 
 build() {
@@ -24,5 +24,5 @@ build() {
     --with-coinutils-incdir="/usr/include/coin/"
   make
   make DESTDIR=$PKG install-exec
-  rm -fr $PKG/usr/share/coin/
+  rm -fr $PKG/usr/share
 }
