@@ -57,6 +57,7 @@ d:dconf
 d:ragel
 d:openblas
 d:colm
+d:fontforge
 f:f9bce8197704b1d2ebd47c37648f1a17:clucene/fix_zlib_detections.diff
 f:c3c77ab7764fd37465a6af94f09cbd1e:clucene/clucene-core-2.3.3.4-install_contribs_lib.patch
 f:28faf56ff95eb1f5239885ad5060e28f:clucene/clucene-core-2.3.3.4-pkgconfig.patch
@@ -262,3 +263,6 @@ f:1d5025968e45096ddbd84cd144d422f8:openblas/.signature
 f:fb0eed9346f2f8019400111f579f0733:colm/Pkgfile
 f:5c701ca0f55bccf8eb78cdadf609517e:colm/.footprint
 f:93ed34f85a2c6db546bc778a84f721cb:colm/.signature
+f:3f77dec01835762c4d4b735fcd0d4425:fontforge/Pkgfile
+f:abd1c2a9ab291c1c46f3712d435c3400:fontforge/.footprint
+f:181b4fb064a62a69791d6ae42be3c6a1:fontforge/.signature
