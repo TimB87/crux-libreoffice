@@ -5,9 +5,9 @@
 # Depends on: cairo ragel graphite2
 
 name=harfbuzz
-version=2.4.0
+version=2.5.0
 release=1
-source=(http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-$version.tar.bz2)
+source=(http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-$version.tar.xz)
 
 build() {
   cd $name-$version
