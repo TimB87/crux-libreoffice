@@ -49,7 +49,6 @@ d:lpsolve
 d:glm
 d:py3boost
 d:graphite2
-d:avahi
 d:libdaemon
 d:dconf
 d:ragel
@@ -232,11 +231,6 @@ f:26caf7768f6d665d665ebd064681e4a3:py3boost/Pkgfile
 f:871374bbf549e6e528953aa456fd0fde:graphite2/.footprint
 f:d3e12a1d079155d5185103cc0f0b6781:graphite2/Pkgfile
 f:2b988a5fcdeb550b233593ce625b17ea:graphite2/.signature
-f:5c90e86c7ca398605605ec31d17fd18e:avahi/avahi-daemon.rc
-f:0b8b02610ea0e67fdcc62bba11250d4c:avahi/pre-install
-f:413c7e2bf233badd23d8d8719883d9b7:avahi/.footprint
-f:3de0652d5bf88d820e83c2f281548a8a:avahi/Pkgfile
-f:7995c6edc252262ccc2d94c1da513958:avahi/.signature
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:0d3f90705096d2119a3563516fdb379c:libdaemon/.md5sum
 f:986103dfde73d97ec729f76239f6aa9c:libdaemon/Pkgfile
