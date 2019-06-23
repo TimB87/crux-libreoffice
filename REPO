@@ -48,7 +48,6 @@ d:chrpath
 d:lpsolve
 d:glm
 d:py3boost
-d:graphite2
 d:libdaemon
 d:dconf
 d:ragel
@@ -120,9 +119,9 @@ f:73d7d4ea8297778f445579c562ef0d7b:rhash/.signature
 f:370550bbbd3f35942e1b2f5e95573fe8:rhash/Pkgfile
 f:13d67482056d143419ca21c8c85333c9:libreoffice/makefile.in.patch
 f:50db59ff0f0d0b7c678cfb48e25edefb:libreoffice/.footprint
-f:361cda70c4731a2469f752aa0334d8a4:libreoffice/Pkgfile
-f:b344cb78e31c85af04ee3ef8fd7ae575:libreoffice/.signature
+f:eaf6a09b653c45b3a960dfe0c4df76f2:libreoffice/Pkgfile
 f:e95daf509dab5078e92bcd6aa7df3e4a:libreoffice/README
+f:9fa202b558d81907475b53d94469cffa:libreoffice/.signature
 f:76565d652265b5db14b46da9c68e32ef:unixodbc/.footprint
 f:f158a49c50471d2a9a6da7301e1e19d4:unixodbc/.signature
 f:83d515fab03b40c25644e3dabb2dd640:unixodbc/Pkgfile
@@ -202,8 +201,8 @@ f:b6e5ec8c9d27f4e102a7591130a0fb09:metis/.footprint
 f:d056e0b3c928329edafa732c8237f095:metis/Pkgfile
 f:1a75227d1c4c3ba75d4ca5358fce5442:metis/.signature
 f:d6854f5ca6a805e43a451eaf345fce06:intel-tbb/.footprint
-f:3a539a0c2be832f5aeff01e9996e8f04:intel-tbb/Pkgfile
-f:f95e1c0600cefb3d578e501e3f94c87b:intel-tbb/.signature
+f:4b8cd951fc807210ff65bbe22ef7e937:intel-tbb/Pkgfile
+f:1c81d70699a0f032174f160f625a5ce1:intel-tbb/.signature
 f:81f8cccd04bdc11964dc364c473bc105:libnumbertext/libnumbertext-updateautotools.patch
 f:9afcf27e20db0d59bed4589635f66000:libnumbertext/.footprint
 f:92f393e44f0e354f98ad578a5f87ad8c:libnumbertext/.signature
@@ -228,9 +227,6 @@ f:8101d9cecfd0442b194771065394427c:py3boost/README
 f:d4071ddee5be5e6c58c76defcc41242a:py3boost/.footprint
 f:5a50f9b518ec35118075cc3cf97ef230:py3boost/.signature
 f:26caf7768f6d665d665ebd064681e4a3:py3boost/Pkgfile
-f:871374bbf549e6e528953aa456fd0fde:graphite2/.footprint
-f:d3e12a1d079155d5185103cc0f0b6781:graphite2/Pkgfile
-f:2b988a5fcdeb550b233593ce625b17ea:graphite2/.signature
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:0d3f90705096d2119a3563516fdb379c:libdaemon/.md5sum
 f:986103dfde73d97ec729f76239f6aa9c:libdaemon/Pkgfile
