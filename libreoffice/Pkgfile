@@ -4,7 +4,7 @@
 # Depends on: avahi clucene coin-or-mp cups dconf fakeroot fontforge gpgme graphite2 gst-plugins-base gtk gtk3 harfbuzz-icu hunspell hyphen krb5 libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libtommath libvisio libwebp libwpg libwps libzmf lpsolve neon poppler redland sane xmlsec zip
 
 name=libreoffice
-version=6.2.5.1
+version=6.2.5.2
 release=1
 source=(
 http://downloadarchive.documentfoundation.org/libreoffice/old/$version/src/$name-$version.tar.xz
