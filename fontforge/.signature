@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67icmUxAgE0+Bif/Jd397i3yypBMSyBjg8z9FRtVHQQplt9ZzzHqYFOmsqkh3FSUbCpXcnxIGnIbWNjOAly1gfSgM=
-SHA256 (Pkgfile) = 091e921d46f93661efcc5ac13b7d335703ab468b1845390e0fdf1a0fd1484de0
+RWRlW2Ac5R67iU0Ahsd+cT7vEtR+P6tBZTF9yGgc8LPzYYMbBtMhg7HJ6fuGmLMgjQxMpZllWponSLo6X5bBZiMsNSvGDyXiSgM=
+SHA256 (Pkgfile) = 53bd5cab0b6895554cd482e6601e3c5fca6548b0bec14b3365c12569d3b07f9b
 SHA256 (.footprint) = a7866bae64721fa81cf1f50fbe79eac839c5cc21fb71c987dfb0d5bf6d0b1686
 SHA256 (fontforge-20190413.tar.gz) = d3b60f22d7a52fc2b11e1bd515ab7ba3176f8a3228330d2aea4d076896fe025d
