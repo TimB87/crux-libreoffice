@@ -4,7 +4,7 @@
 # Depends on: avahi clucene coin-or-mp cups dconf fakeroot fontforge gpgme graphite2 gst-plugins-base gtk gtk3 harfbuzz-icu hunspell hyphen krb5 libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libtommath libvisio libwebp libwpg libwps libzmf lpsolve neon poppler redland sane xmlsec zip
 
 name=libreoffice
-version=6.2.5.2
+version=6.3.0.1
 release=1
 source=(
 http://downloadarchive.documentfoundation.org/libreoffice/old/$version/src/$name-$version.tar.xz
@@ -23,35 +23,15 @@ build() {
 
   build_date=$(date +%Y%m%d)
   ./autogen.sh --prefix=/usr \
-    --enable-release-build \
-    --enable-build-opensymbol \
-    --enable-introspection=yes \
-    --enable-python=system \
-    --enable-odk \
-    --enable-openssl \
-    --enable-gtk3 \
-    --enable-dbus \
-    --with-lang="" \
-    --with-package-format=archive \
+    --enable-{build-opensymbol,dbus,gtk3,introspection=yes,release-build,odk,openssl,python=system} \
+    --with-{lang="",package-format=archive,parallelism} \
     --with-build-version="$name-$version" \
     --with-extra-buildid="$(crux | awk '{ print $1 " " $3 }') ${build_date}" \
     --with-package-version="$version" \
-    --with-system-headers \
-    --with-system-libs \
-    --with-parallelism \
-    --without-fonts \
-    --without-help \
-    --without-helppack-integration \
-    --without-doxygen \
-    --without-gssapi \
-    --without-java \
-    --disable-gstreamer-0-10 \
-    --disable-sdremote-bluetooth \
-    --disable-extension-update \
-    --disable-postgresql-sdbc \
-    --enable-firebird-sdbc=no \
-    --disable-report-builder \
-    --disable-werror
+    --with-system-{headers,libs} \
+    --without-{doxygen,fonts,gssapi,help,helppack-integration,java,system-firebird} \
+    --disable-{extension-update,gstreamer-0-10,postgresql-sdbc,report-builder,sdremote-bluetooth,werror}
+    #--enable-firebird-sdbc=no
   touch sources.ver
   echo "lo_sources_ver=${version}" > sources.ver
   make build-nocheck
@@ -68,7 +48,7 @@ build() {
   install -m644 $PKG/usr/lib/libreoffice/share/psprint/psprint.conf \
     $PKG/usr/etc/libreoffice/
 
-  # install dummy links to make them found by LibO
+  # install dummy links to make them found by lo
   cd $PKG/usr/lib/libreoffice/program/
   ln -vsrf $PKG/usr/etc/libreoffice/{bootstraprc,sofficerc} .
 
