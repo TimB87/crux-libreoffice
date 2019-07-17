@@ -18,13 +18,13 @@ drwxr-xr-x	root/root	usr/include/coin/
 -rw-r--r--	root/root	usr/include/coin/OsiUnitTests.hpp
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libOsi.la
-lrwxrwxrwx	root/root	usr/lib/libOsi.so -> libOsi.so.1.13.3
-lrwxrwxrwx	root/root	usr/lib/libOsi.so.1 -> libOsi.so.1.13.3
--rwxr-xr-x	root/root	usr/lib/libOsi.so.1.13.3
+lrwxrwxrwx	root/root	usr/lib/libOsi.so -> libOsi.so.1.13.4
+lrwxrwxrwx	root/root	usr/lib/libOsi.so.1 -> libOsi.so.1.13.4
+-rwxr-xr-x	root/root	usr/lib/libOsi.so.1.13.4
 -rwxr-xr-x	root/root	usr/lib/libOsiCommonTests.la
-lrwxrwxrwx	root/root	usr/lib/libOsiCommonTests.so -> libOsiCommonTests.so.1.13.3
-lrwxrwxrwx	root/root	usr/lib/libOsiCommonTests.so.1 -> libOsiCommonTests.so.1.13.3
--rwxr-xr-x	root/root	usr/lib/libOsiCommonTests.so.1.13.3
+lrwxrwxrwx	root/root	usr/lib/libOsiCommonTests.so -> libOsiCommonTests.so.1.13.4
+lrwxrwxrwx	root/root	usr/lib/libOsiCommonTests.so.1 -> libOsiCommonTests.so.1.13.4
+-rwxr-xr-x	root/root	usr/lib/libOsiCommonTests.so.1.13.4
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/coindatanetlib.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/osi-unittests.pc
