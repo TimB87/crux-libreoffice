@@ -115,13 +115,13 @@ f:4c8d088e253bbf89bed88ef12bf4a5a7:mdds/.footprint
 f:091a2f2063d87d05709fdd3fd171b66b:mdds/.signature
 f:769f53784096db42749138a15df0ea8f:mdds/Pkgfile
 f:3eb4354eb6747181e2643660f698f2d5:rhash/.footprint
-f:73d7d4ea8297778f445579c562ef0d7b:rhash/.signature
 f:c7d2d0f34c748aa5e9c966ad492ce3ac:rhash/Pkgfile
+f:465309f5248a3a4cf58f5db19a6d4943:rhash/.signature
 f:13d67482056d143419ca21c8c85333c9:libreoffice/makefile.in.patch
 f:e95daf509dab5078e92bcd6aa7df3e4a:libreoffice/README
-f:7a16bc390b043ab0f372e8a05b792ad9:libreoffice/.footprint
-f:310d15fe5b4b9bac7143f5f7dde38901:libreoffice/.signature
-f:6d7ee73cb05eda2de0faa8e3f100f798:libreoffice/Pkgfile
+f:0501d0041f576a941220461bd3d44805:libreoffice/.footprint
+f:1956d58b1d1378727710cdceb48d3c97:libreoffice/Pkgfile
+f:44fff3b76f33ba009954af7e64119005:libreoffice/.signature
 f:76565d652265b5db14b46da9c68e32ef:unixodbc/.footprint
 f:f158a49c50471d2a9a6da7301e1e19d4:unixodbc/.signature
 f:83d515fab03b40c25644e3dabb2dd640:unixodbc/Pkgfile
