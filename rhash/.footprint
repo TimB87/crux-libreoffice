@@ -1,5 +1,3 @@
-drwxr-xr-x	root/root	etc/
--rw-r--r--	root/root	etc/rhashrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 lrwxrwxrwx	root/root	usr/bin/ed2k-link -> rhash
@@ -13,6 +11,8 @@ lrwxrwxrwx	root/root	usr/bin/sfv-hash -> rhash
 lrwxrwxrwx	root/root	usr/bin/tiger-hash -> rhash
 lrwxrwxrwx	root/root	usr/bin/tth-hash -> rhash
 lrwxrwxrwx	root/root	usr/bin/whirlpool-hash -> rhash
+drwxr-xr-x	root/root	usr/etc/
+-rw-r--r--	root/root	usr/etc/rhashrc
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/librhash.so.0
 drwxr-xr-x	root/root	usr/share/
