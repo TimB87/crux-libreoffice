@@ -23,15 +23,14 @@ build() {
 
   build_date=$(date +%Y%m%d)
   ./autogen.sh --prefix=/usr \
-    --enable-{build-opensymbol,dbus,gtk3,introspection=yes,release-build,odk,openssl,python=system} \
-    --with-{lang="",package-format=archive,parallelism} \
+    --enable-{build-opensymbol,dbus,firebird-sdbc=no,gtk3,introspection=yes,release-build,odk,openssl,python=system} \
+    --with-{lang="",package-format=archive,myspell-dicts,parallelism} \
     --with-build-version="$name-$version" \
     --with-extra-buildid="$(crux | awk '{ print $1 " " $3 }') ${build_date}" \
     --with-package-version="$version" \
     --with-system-{headers,libs} \
     --without-{doxygen,fonts,gssapi,help,helppack-integration,java,system-firebird} \
-    --disable-{extension-update,gstreamer-0-10,postgresql-sdbc,report-builder,sdremote-bluetooth,werror}
-    #--enable-firebird-sdbc=no
+    --disable-{extension-update,dconf,firebird-sdbc,gstreamer-0-10,postgresql-sdbc,report-builder,sdremote-bluetooth,werror}
   touch sources.ver
   echo "lo_sources_ver=${version}" > sources.ver
   make build-nocheck
