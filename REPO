@@ -119,9 +119,9 @@ f:c7d2d0f34c748aa5e9c966ad492ce3ac:rhash/Pkgfile
 f:465309f5248a3a4cf58f5db19a6d4943:rhash/.signature
 f:13d67482056d143419ca21c8c85333c9:libreoffice/makefile.in.patch
 f:e95daf509dab5078e92bcd6aa7df3e4a:libreoffice/README
-f:0501d0041f576a941220461bd3d44805:libreoffice/.footprint
-f:1956d58b1d1378727710cdceb48d3c97:libreoffice/Pkgfile
-f:44fff3b76f33ba009954af7e64119005:libreoffice/.signature
+f:f9660b57cc7a3fe39d50761437da864e:libreoffice/.footprint
+f:848909566855e6115267cc36689d1793:libreoffice/Pkgfile
+f:64ebedbb2c97e0820a11c91907257b37:libreoffice/.signature
 f:76565d652265b5db14b46da9c68e32ef:unixodbc/.footprint
 f:f158a49c50471d2a9a6da7301e1e19d4:unixodbc/.signature
 f:83d515fab03b40c25644e3dabb2dd640:unixodbc/Pkgfile
