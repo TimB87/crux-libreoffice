@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67ieG3sVK6KNNYsXakOziLjz/Lx7wzCPQucNMXj+Mp8yXCtms8SttLEkuyQwQ34nhSEyh0S34LvTXm69ksdTcxdAk=
-SHA256 (Pkgfile) = ae217850da689bb42948b21b8fef7117ae2ee8765e9d61db89acb4f57cbdf75b
-SHA256 (.footprint) = 99614e5137bc27537dff3a31f2dd7071241f3464ca382cdbbdf7ea48b32fe9d6
-SHA256 (libreoffice-6.3.0.1.tar.xz) = 42f6f64720279ff6865309c882af128cbc93529db3ebb66c40a07b7c2dafa136
+RWRlW2Ac5R67iWYvHRbUrPpPrQ1L96XgpEWMpPrLzEXkaub/BJX0k2KN7Tz4GlAiAbOzxM3JFCUxtkdDrHoBg974udGpz28rsgg=
+SHA256 (Pkgfile) = 899156975cf53a76a3985a192936961f3a426a9a10eb481dbf19d56fa9f73ae6
+SHA256 (.footprint) = 12b05c284b3c4bb46475b8704cd57ca7737d1ac043db2d9ffe1596f08e394cff
+SHA256 (libreoffice-6.3.0.2.tar.xz) = 9392438f752f9f6a0afef09104bdf08d76d424e750ce57bd9c863ad9f7744183
 SHA256 (makefile.in.patch) = 50d2f5bac605f6fdbcb3234113949971b998875e832e1ae09b2498afe27f0f10
