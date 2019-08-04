@@ -10,7 +10,6 @@ drwxr-xr-x	root/root	usr/include/liblangtag/
 -rw-r--r--	root/root	usr/include/liblangtag/lt-extension.h
 -rw-r--r--	root/root	usr/include/liblangtag/lt-extlang-db.h
 -rw-r--r--	root/root	usr/include/liblangtag/lt-extlang.h
--rw-r--r--	root/root	usr/include/liblangtag/lt-gobject.h
 -rw-r--r--	root/root	usr/include/liblangtag/lt-grandfathered-db.h
 -rw-r--r--	root/root	usr/include/liblangtag/lt-grandfathered.h
 -rw-r--r--	root/root	usr/include/liblangtag/lt-iter.h
@@ -33,12 +32,6 @@ drwxr-xr-x	root/root	usr/include/liblangtag/
 -rw-r--r--	root/root	usr/include/liblangtag/lt-variant.h
 -rw-r--r--	root/root	usr/include/liblangtag/lt-xml.h
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/girepository-1.0/
--rw-r--r--	root/root	usr/lib/girepository-1.0/LangTag-0.6.typelib
--rwxr-xr-x	root/root	usr/lib/liblangtag-gobject.la
-lrwxrwxrwx	root/root	usr/lib/liblangtag-gobject.so -> liblangtag-gobject.so.0.3.0
-lrwxrwxrwx	root/root	usr/lib/liblangtag-gobject.so.0 -> liblangtag-gobject.so.0.3.0
--rwxr-xr-x	root/root	usr/lib/liblangtag-gobject.so.0.3.0
 -rwxr-xr-x	root/root	usr/lib/liblangtag.la
 lrwxrwxrwx	root/root	usr/lib/liblangtag.so -> liblangtag.so.1.4.1
 lrwxrwxrwx	root/root	usr/lib/liblangtag.so.1 -> liblangtag.so.1.4.1
@@ -49,11 +42,8 @@ drwxr-xr-x	root/root	usr/lib/liblangtag/
 -rwxr-xr-x	root/root	usr/lib/liblangtag/liblangtag-ext-ldml-u.la
 -rwxr-xr-x	root/root	usr/lib/liblangtag/liblangtag-ext-ldml-u.so
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
--rw-r--r--	root/root	usr/lib/pkgconfig/liblangtag-gobject.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/liblangtag.pc
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/gir-1.0/
--rw-r--r--	root/root	usr/share/gir-1.0/LangTag-0.6.gir
 drwxr-xr-x	root/root	usr/share/gtk-doc/
 drwxr-xr-x	root/root	usr/share/gtk-doc/html/
 drwxr-xr-x	root/root	usr/share/gtk-doc/html/liblangtag/
