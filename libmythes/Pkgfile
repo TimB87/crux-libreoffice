@@ -1,7 +1,7 @@
 # Description: a simple thesaurus
 # URL: http://hunspell.sourceforge.net/
 # Maintainer: crux libreoffice team, tbier at posteo dot de
-# Depends on:
+# Depends on: hunspell
 
 name=libmythes
 version=1.2.4
