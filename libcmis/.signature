@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67ifFsLIQ5+ST/l5Temrxsf/w3fQwIGBtMiaS7YLJVv+Fwm0tvM2PDKJ4bPRzZDtKGgaNO+v3+6DpkEK1zno06Rg8=
-SHA256 (Pkgfile) = 7b32ca91202a4263be2439db4010be0b3fce91ec5ee778e77d298cd5bb097b07
+RWRlW2Ac5R67iaZ+nJxff8/0OKvFpp7CNIk99yfEtyoP7iJQIvpknP8d7XnUz7eJ+RnMnOkPrSHJAiEkBGcyRU7sg5DRC4bkPw0=
+SHA256 (Pkgfile) = 8d103899ba454375f5e4c34b89694fe63c0e5cd44a41a7000ba87ff3737a1234
 SHA256 (.footprint) = 6cb2896c37fa05b62dc17ab51a40c75471ac204f44a316a6bf1167ff680e5254
 SHA256 (libcmis-0.5.2.tar.gz) = ed6f681a48abbf3c2324564b17a180d21fa9503230e8708825e1ad80daee4f81
