@@ -7,7 +7,7 @@
 name=openblas
 version=0.3.6
 release=1
-source=(http://github.com/xianyi/OpenBLAS/archive/v$version/OpenBLAS-$version.tar.gz)
+source=(https://github.com/xianyi/OpenBLAS/archive/v$version/OpenBLAS-$version.tar.gz)
 
 build () {
   cd OpenBLAS-$version
