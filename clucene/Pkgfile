@@ -8,7 +8,7 @@
 name=clucene
 version=2.3.3.4
 release=1
-source=(http://prdownloads.sf.net/$name/$name-core-$version.tar.gz
+source=(https://prdownload.sourceforge.net/clucene/$name-core-$version.tar.gz
 fix_zlib_detections.diff clucene-core-2.3.3.4-install_contribs_lib.patch clucene-narrowing-conversions.patch clucene-core-2.3.3.4-pkgconfig.patch clucene-warnings.patch clucene-debug.patch clucene-gcc-atomics.patch clucene-multimap-put.patch clucene-2.3.3.4-contribs_lib-1.patch cmake.patch contribs-lib-makefile.patch)
 
 build() {
