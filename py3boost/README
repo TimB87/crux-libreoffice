@@ -1,8 +1,0 @@
-You might need to fix some python3 files:
-ln -s /usr/include/python3.7m /usr/include/python3.7
-ln -s /usr/include/python3.7m /usr/include/python3
-
-and
-ln -s /usr/lib/pkgconfig/python-3.7.pc /usr/lib/pkgconfig/python3.pc
-
-or similiar, based on your installed python version
