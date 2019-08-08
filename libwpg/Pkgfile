@@ -6,7 +6,7 @@
 name=libwpg
 version=0.3.3
 release=1
-source=(https://downloads.sourceforge.net/libwpg/$name-$version.tar.xz)
+source=(https://downloads.sourceforge.net/project/libwpg/libwpg/$name-$version/$name-$version.tar.xz)
 
 build() {
   cd $name-$version
