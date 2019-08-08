@@ -1,15 +1,42 @@
 # Description: LibreOffice is a powerful office suite
 # URL: https://www.libreoffice.org/
 # Maintainer: crux libreoffice team, tbier at posteo dot de
-# Depends on: avahi clucene coin-or-mp cups dconf fakeroot fontforge gpgme graphite2 gst-plugins-base gtk gtk3 harfbuzz-icu hunspell hyphen krb5 libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libtommath libvisio libwebp libwpg libwps libzmf lpsolve neon poppler redland sane xmlsec zip
+# Depends on: clucene coin-or-mp gpgme graphite2 gtk3 harfbuzz-icu hyphen libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libvisio libwpg libwps libzmf lpsolve mysql neon paper python3-lxml redland xmlsec
+# Optional: cups gst-plugins-base kio qt5 valgrind vlc
+# maybe?: poppler postgresql
+
+# old depends on line
+# foooooo oo: avahi clucene coin-or-mp cups dconf fakeroot fontforge gpgme graphite2 gtk gtk3 harfbuzz-icu hunspell hyphen krb5 libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libtommath libvisio libwebp libwpg libwps libzmf lpsolve neon paper poppler python3-lxml redland sane xmlsec zip
 
 name=libreoffice
-version=6.3.0.2
+version=6.3.0.4
 release=1
 source=(
-http://downloadarchive.documentfoundation.org/libreoffice/old/$version/src/$name-$version.tar.xz
+https://downloadarchive.documentfoundation.org/libreoffice/old/$version/src/$name-$version.tar.xz
+https://downloadarchive.documentfoundation.org/libreoffice/old/$version/src/$name-dictionaries-$version.tar.xz
+https://dev-www.libreoffice.org/extern/185d60944ea767075d27247c3162b3bc-unowinreg.dll
+https://dev-www.libreoffice.org/src/0168229624cfac409e766913506961a8-ucpp-1.3.2.tar.gz
 makefile.in.patch
 )
+
+unpack_source() {
+  for file in ${source[@]}; do
+    case ${file##*/} in
+      $name-$version.tar.xz)
+        bsdtar -p -o -C $SRC -xf $(get_filename $file) ;;
+      $name-dictionaries-$version.tar.xz)
+        bsdtar -p -o -C $SRC -xf $(get_filename $file) ;;
+      185d60944ea767075d27247c3162b3bc-unowinreg.dll)
+        mkdir $SRC/tarballs || true
+        cp $(get_filename $file) $SRC/tarballs ;;
+      0168229624cfac409e766913506961a8-ucpp-1.3.2.tar.gz)
+        mkdir $SRC/tarballs || true
+        cp $(get_filename $file) $SRC/tarballs ;;
+      *)
+        cp $(get_filename $file) $SRC ;;
+    esac
+  done
+}
 
 build() {
   cd $name-$version
@@ -21,17 +48,61 @@ build() {
      \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
      -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-  build_date=$(date +%Y%m%d)
+  # determine configure options based on installed packages on the system
+  if [[ -e /usr/share/cups ]]; then
+    local let_cups="--enable-cups";
+  else
+    local let_cups="--disable-cups";
+  fi
+
+  if [[ -e /usr/share/gst-plugins-base ]]; then
+    local let_gst="--enable-gstreamer-1-0";
+  else
+    local let_gst="--disable-gstreamer-1-0";
+  fi
+
+  if [[ -e /usr/share/qt5 ]]; then
+    local let_qt5="--enable-qt5 \
+      --enable-gtk3-kde5";
+  else
+    local let_qt5="--disable-qt5";
+  fi
+
+  if [[ -e /usr/share/vlc ]]; then
+    local let_vlc="--enable-vlc";
+  fi
+
+  if [[ -e /usr/share/kf5/ ]]; then
+    local let_kf5="--enable-kde5";
+  fi
+
+  if [[ -e /usr/lib/pkgconfig/valgrind.pc ]]; then
+    local let_valgrind="--with-valgrind";
+  fi
+
+  local build_date=$(date +%Y%m%d)
   ./autogen.sh --prefix=/usr \
+    --with-external-tar="$SRC/tarballs" \
+    --disable-fetch-external \
     --enable-{build-opensymbol,dbus,firebird-sdbc=no,gtk3,introspection=yes,release-build,odk,openssl,python=system} \
     --with-{lang="",package-format=archive,myspell-dicts,parallelism} \
     --with-build-version="$name-$version" \
     --with-extra-buildid="$(crux | awk '{ print $1 " " $3 }') ${build_date}" \
     --with-package-version="$version" \
     --with-system-{headers,libs} \
+    --with-external-dict-dir=/usr/share/hunspell \
+    --with-external-hyph-dir=/usr/share/hypen \
+    --with-external-thes-dir=/usr/share/mythes \
     --without-{doxygen,fonts,gssapi,help,helppack-integration,java,system-firebird} \
-    --disable-{extension-update,dconf,firebird-sdbc,gstreamer-0-10,postgresql-sdbc,report-builder,sdremote-bluetooth,werror}
-  touch sources.ver
+    --disable-{avahi,build-unowinreg,dconf,dependency-tracking,extension-update,fetch-external,firebird-sdbc,gstreamer-0-10,gtk,postgresql-sdbc,report-builder,sdremote-bluetooth,werror} \
+    $let_qt5 \
+    $let_kf5 \
+    $let_cups \
+    $let_gst \
+    $let_vlc \
+    $let_valgrind
+
+  touch {sources.ver,src.downloaded}
   echo "lo_sources_ver=${version}" > sources.ver
   make build-nocheck
 
