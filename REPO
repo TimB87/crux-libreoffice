@@ -65,8 +65,8 @@ f:bafcf476c9176566c41be30e76a85774:clucene/clucene-2.3.3.4-contribs_lib-1.patch
 f:4eb3af9f2e6be60ed3ad0aec98c94356:clucene/cmake.patch
 f:6f09a22328717123f441a16ebdd45f33:clucene/.footprint
 f:29e8e9776b5f99148a9f805ed270c177:clucene/contribs-lib-makefile.patch
-f:3d44dcf10916852a27a3c1c879718105:clucene/Pkgfile
-f:e01101607d328a618ffcc487a311578c:clucene/.signature
+f:bf484cbc46a78ff373179d287a467346:clucene/Pkgfile
+f:56c900f4b168c8f4aa32b0e88f10a154:clucene/.signature
 f:41def9e95e1d150b8271a0d84034f9aa:coin-or-cbc/.footprint
 f:32d2d9ea81d6964cdddb0dcbe8cac235:coin-or-cbc/.signature
 f:96ffca31c889a84b81e26dc72586133d:coin-or-cbc/Pkgfile
