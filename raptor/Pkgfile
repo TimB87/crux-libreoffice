@@ -15,4 +15,5 @@ build() {
     --with-icu-config=/usr/bin/icu-config
   make
   make prefix="$PKG"/usr install
+  rm -r $PKG/usr/share/gtk-doc
 }
