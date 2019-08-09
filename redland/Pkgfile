@@ -20,4 +20,5 @@ build() {
   patch -Np0 -i $SRC/rpath.diff
   make
   make DESTDIR=$PKG install
+  rm -r $PKG/usr/share/gtk-doc
 }
