@@ -257,7 +257,6 @@ lrwxrwxrwx	root/root	usr/lib/libreoffice/program/bootstraprc -> ../../../etc/lib
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libaffine_uno_uno.so
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libanalysislo.so
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libanimcorelo.so
--rwxr-xr-x	root/root	usr/lib/libreoffice/program/libavmediagst.so
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libavmedialo.so
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libbasctllo.so
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libbasegfxlo.so
@@ -462,7 +461,6 @@ lrwxrwxrwx	root/root	usr/lib/libreoffice/program/bootstraprc -> ../../../etc/lib
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libvcllo.so
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libvclplug_genlo.so
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libvclplug_gtk3lo.so
--rwxr-xr-x	root/root	usr/lib/libreoffice/program/libvclplug_gtklo.so
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libwpftcalclo.so
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libwpftdrawlo.so
 -rwxr-xr-x	root/root	usr/lib/libreoffice/program/libwpftimpresslo.so
@@ -667,7 +665,6 @@ drwxr-xr-x	root/root	usr/lib/libreoffice/program/wizards/ui/event/
 -rw-r--r--	root/root	usr/lib/libreoffice/program/wizards/ui/event/TaskListener.py
 -rw-r--r--	root/root	usr/lib/libreoffice/program/wizards/ui/event/UnoDataAware.py
 -rw-r--r--	root/root	usr/lib/libreoffice/program/wizards/ui/event/__init__.py (EMPTY)
--rwxr-xr-x	root/root	usr/lib/libreoffice/program/xid-fullscreen-on-all-monitors
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/
 drwxr-xr-x	root/root	usr/lib/libreoffice/sdk/bin/
 -rwxr-xr-x	root/root	usr/lib/libreoffice/sdk/bin/cppumaker

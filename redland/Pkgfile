@@ -1,7 +1,8 @@
 # Description: Library that provides a high-level interface to RDF data
 # URL: http://librdf.org/
 # Maintainer: crux libreoffice team, tbier at posteo dot de
-# Depends on: mysql postgresql rasqal unixodbc
+# Depends on: rasqal unixodbc sqlite3
+# Optional: mysql postgresql
 
 name=redland
 version=1.0.17
@@ -19,4 +20,5 @@ build() {
   patch -Np0 -i $SRC/rpath.diff
   make
   make DESTDIR=$PKG install
+  rm -r $PKG/usr/share/gtk-doc
 }

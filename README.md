@@ -8,16 +8,17 @@ For information about libreoffice, visit [their Website](https://www.libreoffice
 
 1. enable the REPO on your CRUX system
   * put crux-libreoffice.httpup and crux-libreoffice.pub in /etc/ports
-  * edit /etc/prt-get.conf to contain "prtdir crux-libreoffice"
+  * edit /etc/prt-get.conf to contain "prtdir /usr/ports/crux-libreoffice"
   * also allow scripts to be run or watch out for scripts you need to run (eg. when installing mysql)
 2. what else to check?
   * *your first build?*
-    * install python3 first and issue those commands afterwards (CRUX 3.5 as a basis):
-    * `ln -s /usr/include/python3.7m /usr/include/python3.7` `ln -s /usr/include/python3.7m /usr/include/python3` `ln -s /usr/lib/pkgconfig/python-3.7.pc /usr/lib/pkgconfig/python3.pc`
-    * the reason for that is that libixion and py3boost will fail to find python3 without them and the build will fail
+    * ~~Install python3 first and issue those commands afterwards (CRUX 3.5 as a basis):~~
+    * ~~`ln -s /usr/include/python3.7m /usr/include/python3.7` `ln -s /usr/include/python3.7m /usr/include/python3` `ln -s /usr/lib/pkgconfig/python-3.7.pc /usr/lib/pkgconfig/python3.pc`~~
+    * ~~the reason for that is that libixion and py3boost will fail to find python3 without them and the build will fail~~
+    * this all should not be needed anymore
   * *not your first build?*
-    * if you have harfbuzz installed `prt-get isinst harfbuzz` already, you need to rebuild it with graphite2 support
-    * `prt-get depinst ragel graphite2 && prt-get update -fr harfbuzz`
+    * if you have harfbuzz installed (`prt-get isinst harfbuzz harfbuzz-icu`) already, you need to rebuild it with graphite2 support
+    * `prt-get depinst ragel graphite2 && prt-get update -fr harfbuzz harfbuzz-icu`
 3. `prt-get depinst libreoffice`
 4. ???
 5. Profit.

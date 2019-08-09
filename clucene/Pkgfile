@@ -1,25 +1,20 @@
 # Description: Indexing and searching library
-# URL: http://www.sourceforge.net/projects/clucene
+# URL: https://www.sourceforge.net/projects/clucene
 # Maintainer: crux libreoffice team, tbier at posteo dot de
 # Packager: Alan Mizrahi, alan at mizrahi dot com dot ve
-# Depends on: qt5
+# Depends on: cmake
 # Optional: log4cxx bzip2 exiv2 boost
 
 name=clucene
 version=2.3.3.4
 release=1
-source=(https://prdownload.sourceforge.net/clucene/$name-core-$version.tar.gz
-fix_zlib_detections.diff clucene-core-2.3.3.4-install_contribs_lib.patch clucene-narrowing-conversions.patch clucene-core-2.3.3.4-pkgconfig.patch clucene-warnings.patch clucene-debug.patch clucene-gcc-atomics.patch clucene-multimap-put.patch clucene-2.3.3.4-contribs_lib-1.patch cmake.patch contribs-lib-makefile.patch)
+source=(https://downloads.sourceforge.net/project/clucene/clucene-core-unstable/2.3/$name-core-$version.tar.gz
+fix_zlib_detections.diff clucene-core-2.3.3.4-install_contribs_lib.patch clucene-narrowing-conversions.patch clucene-warnings.patch clucene-debug.patch clucene-gcc-atomics.patch clucene-multimap-put.patch clucene-2.3.3.4-contribs_lib-1.patch cmake.patch contribs-lib-makefile.patch)
 
 build() {
   cd $name-core-$version
   patch -Np1 -i $SRC/cmake.patch
-  #patch -Np1 -i ${SRC}/clucene-core-2.3.3.4-install_contribs_lib.patch
-  #pkgconfig file is missing clucene-shared (upstream ID: 3461512), patch by FC
-  #patch -Np1 -i ${SRC}/clucene-core-2.3.3.4-pkgconfig.patch
   patch -Np1 -i $SRC/clucene-2.3.3.4-contribs_lib-1.patch
-  #patch -Np1 -i $SRC/contribs-lib-makefile.patch
-  # one upstream postrelease commit for proper zlib detection
   patch -Np1 -i ${SRC}/fix_zlib_detections.diff
   # LibreOffice patches http://cgit.freedesktop.org/libreoffice/core/tree/clucene/patches
   patch -Np0 -i ${SRC}/clucene-warnings.patch
@@ -37,7 +32,6 @@ build() {
     -DDISABLE_MULTITHREADING=OFF \
     ..
 
-  make
   make
   make DESTDIR=$PKG install
 }
