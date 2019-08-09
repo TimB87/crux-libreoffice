@@ -1,8 +1,9 @@
 # Description: LibreOffice is a powerful office suite
 # URL: https://www.libreoffice.org/
 # Maintainer: crux libreoffice team, tbier at posteo dot de
-# Depends on: clucene coin-or-mp gpgme graphite2 gtk3 harfbuzz-icu hyphen libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libtommath libvisio libwpg libwps libzmf lpsolve mysql neon paper python3-lxml redland sane xmlsec
+# Depends on: clucene coin-or-mp fakeroot fontforge gpgme graphite2 gtk3 harfbuzz-icu hyphen libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libtommath libvisio libwpg libwps libzmf lpsolve mysql neon paper python3-lxml redland sane unzip xmlsec zip
 # Optional: cups fontforge gst-plugins-base kio qt5 valgrind vlc
+
 # maybe?:
 #poppler      --disable-poppler         Disable building Poppler.
 #postgresql   --disable-postgresql-sdbc
