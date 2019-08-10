@@ -131,8 +131,8 @@ f:0a2487a1112c3b8ded849be122ea2226:libwpg/.footprint
 f:ad6f871fa6ef85a91ce02fc684dfbee1:libwpg/.signature
 f:bea6b79935b6d3227a2ae15d88485031:libwpg/Pkgfile
 f:7f3ea6919a025427b60d21b116a47f7b:libwps/.footprint
-f:a46dec2ecfee8348401a04b6e1aa1a17:libwps/.signature
-f:eb3851a52a22d3b2036b93a2e1b5695d:libwps/Pkgfile
+f:50de938758ca46f4aec64a8a6df79ff6:libwps/Pkgfile
+f:1c9e1d4016e3f2135f9b3ffa8c0a26ff:libwps/.signature
 f:0b60fce45a1d7195c654a78637b15dd6:libvisio/.footprint
 f:c1bd99590455bcdc2948e5c9d45c1cd7:libvisio/.signature
 f:3997bd54cf4238581e22deac360eae29:libvisio/Pkgfile
