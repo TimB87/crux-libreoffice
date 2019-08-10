@@ -115,9 +115,9 @@ f:871366298d3b7e4abdc978c5d3ce68c5:libreoffice/.signature
 f:76565d652265b5db14b46da9c68e32ef:unixodbc/.footprint
 f:73767300f902042654e2b302a3806104:unixodbc/Pkgfile
 f:737fcccf8faad4dfd0082c1c50ffaace:unixodbc/.signature
-f:b56a022678cc4409940b995f83bf8b2d:xmlsec/.footprint
-f:620a2faf7bb64ecea87ec60494be754e:xmlsec/Pkgfile
-f:ca0ff8defd009a273d53c38b31c58280:xmlsec/.signature
+f:1f73e987b40aceb5004250639c0eb773:xmlsec/.footprint
+f:baade715426c400e844a9fde4af77163:xmlsec/Pkgfile
+f:7a05086f486dda454c7271dde45442fe:xmlsec/.signature
 f:a085eda15a9da0c51f6a2667504a9551:libodfgen/.footprint
 f:141863b82ddf846100d7ab34e6091af2:libodfgen/Pkgfile
 f:b8b457df43ab67de1abb03f604f52801:libodfgen/.signature
@@ -216,9 +216,9 @@ f:a473c2b7f4ab2f0619b48586f714fd31:crux-libreoffice.pub
 f:d4071ddee5be5e6c58c76defcc41242a:py3boost/.footprint
 f:b9d3c8c7676b01606619f43019f5734f:py3boost/Pkgfile
 f:976a9ae81a075f83c6ace96a44a0af94:py3boost/.signature
-f:5c701ca0f55bccf8eb78cdadf609517e:colm/.footprint
-f:fb0eed9346f2f8019400111f579f0733:colm/Pkgfile
-f:93ed34f85a2c6db546bc778a84f721cb:colm/.signature
+f:f0f9fa05f5b463adb8b035bd8fa4a7c4:colm/.footprint
+f:3928bb86f393c1cf952d6593e8a9f291:colm/Pkgfile
+f:b2b1fe0ace65605528299f5dbce2262e:colm/.signature
 f:b9b0631dfbfbba4d1876bbde1eb67f72:dconf/.footprint
 f:466934519bde24f8597d22c5c67a39f9:dconf/.md5sum
 f:c8c26b62a9fa406754522d5525b17a6c:dconf/Pkgfile
