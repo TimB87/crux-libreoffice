@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iR3+YrxtK4hbQ5D/eqBNUn+GGYnHFqDKJvSU0xETfCuhsAgk70+xMsY/T/M3a7l1HzkM7YISI8d/W+oasfD2qwA=
-SHA256 (Pkgfile) = d08ab3799ce9ef309d7e9fba534a571c8ddea9312867dab1d8070b754974062f
+RWRlW2Ac5R67ieBWLKewtzKFui6AlIsT8FteoLT1sMRDBp/bwNqvLpBV8TPedVU6Oc2lvSOa32KN1rvPKSEym/UWtLHyDLT5WwY=
+SHA256 (Pkgfile) = 4ab57d30f5407a593427409cad08dea6c9a54d5a44718ecceccedec1cc998b80
 SHA256 (.footprint) = 028f6b46aec4f396da071420e4e5969bc4b0ae90375e79c1f522388b42501c26
 SHA256 (ragel-7.0.0.12.tar.gz) = 3999ef97fb108b39d11d9b96986f5e05c74bd95de8dd474301d86c5aca887a74
