@@ -1,6 +1,6 @@
 # Description: High level abstract threading library
 # URL: http://www.threadingbuildingblocks.org/
-# Maintainer: crux libreoffice team, tbier at posteo dot de
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=intel-tbb

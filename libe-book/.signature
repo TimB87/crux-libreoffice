@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iXPRrgDxDOoiLXIsuWwz6RboVCdjOwVGbklosum8ZMLCfMQf0TUTSD3w/o06lBiygatauoQRj+o9LPhrU5O+yQA=
-SHA256 (Pkgfile) = ee1ea770a6e09a6bf546823f1e13c43cce6eae07aac0189a1164c884d404676c
+RWRlW2Ac5R67iX1wc87gCyBbMXyDF0TCj3hU92tBFf2Tr73nVaX/G7yWyAbCeZrCYGzaZNKIus4OjfHcdEqvn+jtx/CCnoVseAU=
+SHA256 (Pkgfile) = 1c9acf01daa24cb0352ab351e52604022d68b09da1bc76c08f9031b6c0b8e9a1
 SHA256 (.footprint) = 29095ae079951d22653c41754fbae8ecad3adfbc33ada913cf2f7e610b926c41
 SHA256 (libe-book-0.1.3.tar.xz) = 7e8d8ff34f27831aca3bc6f9cc532c2f90d2057c778963b884ff3d1e34dfe1f9

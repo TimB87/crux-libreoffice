@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67idgwR+zvE7rzlrBxbSn6khn7+2ImtQeCRtvmeFWudQlJSWWghovedfJE+E7BFtyw3vnaxPQVFOSiP6TvlPabawk=
-SHA256 (Pkgfile) = 2f1e7609ec0cbff9b3975515add83409e79398893b412dad2135aef171dbf87d
+RWRlW2Ac5R67ia/UaT+gvsV7JnbuHtn03lEtlYDBxSfSIpuBeaffioex0kSCzmr64WCCd4nf99BiLa8KY4qXiTDCSHRYeHnByAM=
+SHA256 (Pkgfile) = 7135349c69c0c807bacecae9302a43228acf373d13868640dc133dc3815e4a5b
 SHA256 (.footprint) = 94b4a1e93f3f319321ebfa9b6904a7fcbb0ceaebe679a88cd554a40a73efaf49
 SHA256 (libixion-0.14.1.tar.xz) = 6ad1384fcf813083c6d981a16b2643c953f9bac4c2caf1ed1682921d9b69ed91

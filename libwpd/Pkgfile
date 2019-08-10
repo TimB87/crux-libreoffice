@@ -1,6 +1,6 @@
 # Description: Library for importing WordPerfect (tm) documents
 # URL: https://libwpd.sourceforge.net/
-# Maintainer: crux libreoffice team, tbier at posteo dot de
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: librevenge
 
 name=libwpd

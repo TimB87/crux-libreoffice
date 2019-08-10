@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iaOw7gbpky96fdlkxVqwQiv893G7hTcoqyuXkqVdjNNWmNnRpAZIh4jMn4wd19RJJur0sjIBgYkVo64eCzcb2Qw=
-SHA256 (Pkgfile) = f18a19c7af9c481a12cbe7030ff13e872d49f187726a071f68fc7622c6fe7e51
+RWRlW2Ac5R67icn8bcTm956zogDKavP+yFCRVTbbv9PgHjhBV+7bX3tJJHIEx96Aqf67EvFN/pZ1mj8MpzfDtp6J+capbifHJgo=
+SHA256 (Pkgfile) = c1c5263917c1b69505175b61754f1d39f1d941f0f6c687edcdef597cc6763849
 SHA256 (.footprint) = b8cd5cff2918f0486c1bca11e7de996153b71a9452c465d604eed5c40281c1ae
 SHA256 (lp_solve_5.5.2.5_source.tar.gz) = 201a7c62b8b3360c884ee2a73ed7667e5716fc1e809755053b398c2f5b0cf28a
 SHA256 (cflags.patch) = f9edf2f2cd43304045dc6969cf81937aeb6fc877229f4fc03a7463cccfa4ce91

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67ibbUIHePI71FjnBiXHjt85m6drseIWNrExUIy82y1zm0IiClPKxw9j27BvO2pNv18lFiRZK7A1+QyaZGA5pjWQA=
-SHA256 (Pkgfile) = ebe6db866c4b354aaa6daa79718a0df14f1f4e5f42d33e744824fa7d684c48f5
+RWRlW2Ac5R67iTz48qB9jqr/DaBeu3XIkvXsbG2FFQiCX4dHzZ2MxNC4FXswCWPnggM4B4sXagCwZtNdmrYRxTWKTDC6Ouvmwwk=
+SHA256 (Pkgfile) = 234d32b1d930952ad7c0f1dfe3f1d64d2b7fcf757a6e44cb8df07fec1773310a
 SHA256 (.footprint) = 3bb5f83de8d28cc4918be9cc13875e3c4d4645d1dac3f5d86f77a439035a708d
 SHA256 (intel-tbb-2019.8.tar.gz) = 7b1fd8caea14be72ae4175896510bf99c809cd7031306a1917565e6de7382fba

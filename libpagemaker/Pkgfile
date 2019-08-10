@@ -1,6 +1,6 @@
 # Description: a library that parses the file format of Aldus/Adobe PageMaker documents
 # URL: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
-# Maintainer: crux libreoffice team, tbier at posteo dot de
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: librevenge
 
 name=libpagemaker

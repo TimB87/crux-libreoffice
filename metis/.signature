@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iRmKXsVgAEFA7K1demY7i0ryCm+Fup8cAZtSQIrJ/AV/eV0HzQtx4rM+ZMoZ68EwpgO0LBQzTY3bHcWIM9a5TwY=
-SHA256 (Pkgfile) = e8d60f11e2c008603c536f9cbd14ae0eedd97838c9ac01af6a70170176ba4291
+RWRlW2Ac5R67ieXd02c8lwajmAzwEi/klEQba7GoekOO3mHD+aTki8mqHkiVFQJR+tFUTCAX3XvnuT1UEK8F6fetW6pKLHBRMw4=
+SHA256 (Pkgfile) = 7bbe2b5b0b903f61dbfee35a9a0a35cf08e33d0c5e033c4eea88c832766d170b
 SHA256 (.footprint) = 35748513ff8e037388044b92c13b1ac4d7d5b1f5e0d8a93ecf4088752c724dc3
 SHA256 (metis-5.1.0.tar.gz) = 76faebe03f6c963127dbb73c13eab58c9a3faeae48779f049066a21c087c5db2

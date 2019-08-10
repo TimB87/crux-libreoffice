@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iYIjugCdFqmsrcXhQHmBjLxokTrvEGNcOJ4ehjLNJjiuI6/7iMsnUTCylaXVYBBL/ImDjg/onT3GD7YiMw5iYAU=
-SHA256 (Pkgfile) = 5a788cc125478c498e045582ff2cd82d3ee46cf23cd330d115ecb551740943de
+RWRlW2Ac5R67iZAgsJj0PAbYj5aSfhmr4Q0c1fDz+c+il9i0U+pODg2Cwf3LG1wJTAH/OPA9bsLNIKC5C3QxGWsCFsNYMZ1srAE=
+SHA256 (Pkgfile) = 7352139f999e72937474fc7ad9b6134f7ce9a0774eb9d0da99a3948e2d3689a8
 SHA256 (.footprint) = 30957520c8be08eb605b07e588a1c3a2f0a46a4c36b05363fef4134b22a72aa6
 SHA256 (libstaroffice-0.0.6.tar.xz) = 6b00e1ed8194e6072be4441025d1b888e39365727ed5b23e0e8c92c4009d1ec4

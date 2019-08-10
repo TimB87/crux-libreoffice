@@ -1,6 +1,6 @@
 # Description: filter for old StarOffice documents(.sdc, .sdw, ...) based on librevenge
 # URL: https://github.com/fosnola/libstaroffice
-# Maintainer: crux libreoffice team, tbier at posteo dot de
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: librevenge
 
 name=libstaroffice

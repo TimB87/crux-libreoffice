@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iVqJPDV7i362lcm+pYyNR7l6xlFog6dy0jEOOO6xhZvP70aYi/4sG6MkA2LTeDKMMaA+SQIk9LbnEmP8uoaV5gY=
-SHA256 (Pkgfile) = 038f40558f2fb7135c953b40609b4337a074e3413dc5763f0257d172ab8c9e49
+RWRlW2Ac5R67iSzZXiTiEeS5tnpdIxUAvGVYbccf9vdKifRm0//mDzqO+JX26/3gu7eHnNOHpQFLIlkszt58juRNrPyhq9laSQA=
+SHA256 (Pkgfile) = 9c2c35f77d1d191c798153c4e2796abeb7f21fe284005017d38f7958d778fa5a
 SHA256 (.footprint) = c2731f041b15982bdb7a62c1cce016d1d4c81458da05d482451744f887d4dbd4
 SHA256 (libmwaw-0.3.15.tar.xz) = 0440bb09f05e3419423d8dfa36ee847056ebfd837f9cbc091fdb5b057daab0b1

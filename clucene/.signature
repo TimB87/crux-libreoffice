@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iRCpOdSM9dplmr+/hrEg4Ay1Tfyu1EnDa7D1qJxLdWt1LEiFF31JIishnL/xuUo0dDPcNOyag+fsDzW09TpNTQ8=
-SHA256 (Pkgfile) = 2c2632f11506b69d3c3cde6b8aa0cae502840dcc2c7e562376e84f45b7f355c8
+RWRlW2Ac5R67iR1Oaj0ghGM8VzJI2czv0sv+YjWnP/87Wv1u3ImPeIgo3+x2JpA/nw/lyXckAdGpqt0anIXDv8SdzVDwfbH3zwc=
+SHA256 (Pkgfile) = c923f4d2bb9cc79de1bb26c53e25c2a0875fcd119ec673fec8bbcbd1156f5814
 SHA256 (.footprint) = a90f1fa99e0d767eabd4549e23d941298085272b3cb5e0a93f0f2b267befd22f
 SHA256 (clucene-core-2.3.3.4.tar.gz) = ddfdc433dd8ad31b5c5819cc4404a8d2127472a3b720d3e744e8c51d79732eab
 SHA256 (fix_zlib_detections.diff) = e1a6a58dc344d8d5e3218137a5e7a689900eb6ea4cce1dc426e861706ab78889

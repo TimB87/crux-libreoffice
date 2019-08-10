@@ -1,6 +1,6 @@
 # Description: COIN-OR Open Solver Interface
 # URL: https://projects.coin-or.org/Osi
-# Maintainer: crux libreoffice team, tbier at posteo dot de
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: coin-or-coinutils
 
 name=coin-or-osi

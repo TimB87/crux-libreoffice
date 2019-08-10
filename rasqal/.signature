@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iZVXqWMnKGbcy9Cyg4X0wRLhToEj/QLzHKEwBkWbjcfCC8uvgU8sEI9OcbbayyQDk7dCgiYScP08XwqHzfkLmgw=
-SHA256 (Pkgfile) = edbbb55590764af84f3c83133178ea9a8b4da5cf0d5cee2ab637d4b73a5b00a1
+RWRlW2Ac5R67iTrf44aZy9f1xhQ84zra8w7c8U2brUC/7BZnAWeBeqS8gapRrzzWKHg7vqfSEfr1+RsP5VlYmfoVAbaBAf1BFAg=
+SHA256 (Pkgfile) = ce7baabf1dc1d04dd82c1a670622bca50947edf317764e0cf7ad127001b845f4
 SHA256 (.footprint) = dadbb856226835ee48f72a8dde14b13c1076ada2ac112dfa742f9c46d9b3023d
 SHA256 (rasqal-0.9.33.tar.gz) = 6924c9ac6570bd241a9669f83b467c728a322470bf34f4b2da4f69492ccfd97c

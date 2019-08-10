@@ -1,6 +1,6 @@
 # Description: A C library that parses RDF/XML/N-Triples into RDF triples
 # URL: http://librdf.org/raptor
-# Maintainer: crux libreoffice team, tbier at posteo dot de
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: brotli gnutls icu keyutils krb5 libpsl libxslt openldap rtmpdump
 
 name=raptor

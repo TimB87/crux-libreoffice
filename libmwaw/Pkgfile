@@ -1,6 +1,6 @@
 # Description: Import library for some old mac text documents.
 # URL: https://sourceforge.net/projects/libmwaw/
-# Maintainer: crux libreoffice team, tbier at posteo dot de
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: librevenge
 
 name=libmwaw

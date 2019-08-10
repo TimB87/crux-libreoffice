@@ -1,6 +1,6 @@
 # Description: Indexing and searching library
 # URL: https://www.sourceforge.net/projects/clucene
-# Maintainer: crux libreoffice team, tbier at posteo dot de
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Packager: Alan Mizrahi, alan at mizrahi dot com dot ve
 # Depends on: cmake
 # Optional: log4cxx bzip2 exiv2 boost

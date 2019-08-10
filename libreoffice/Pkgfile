@@ -1,6 +1,6 @@
 # Description: LibreOffice is a powerful office suite
 # URL: https://www.libreoffice.org/
-# Maintainer: crux libreoffice team, tbier at posteo dot de
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: clucene coin-or-mp fakeroot fontforge gpgme graphite2 gtk3 harfbuzz-icu hyphen libabw libcdr libcmis libe-book libepubgen libetonyek libexttextcat libfreehand libmspub libmwaw libmythes libnumbertext libodfgen liborcus libpagemaker libqxp libstaroffice libtommath libvisio libwpg libwps libzmf lpsolve mysql neon paper python3-lxml redland sane unzip xmlsec zip
 # Optional: cups gst-plugins-base kio qt5 valgrind vlc
 
@@ -45,13 +45,14 @@ build() {
   # determine configure options based on installed packages on the system
   [[ -e /usr/lib/cups ]] && PKGMK_LIBREOFFICE+=" --enable-cups" || PKGMK_LIBREOFFICE+=" --disable-cups"
   [[ -e /usr/lib/pkgconfig/gstreamer-plugins-base-1.0.pc ]] && PKGMK_LIBREOFFICE+=" --enable-gstreamer-1-0" || PKGMK_LIBREOFFICE+=" --disable-gstreamer-1-0"
-  [[ -e /usr/lib/pkgconfig/Qt5Core.pc ]] && PKGMK_LIBREOFFICE+=" --enable-qt5 --enable-gtk3-kde5" || PKGMK_LIBREOFFICE+=" --disable-qt5"
-  [[ -e /usr/share/kf5/ ]] && PKGMK_LIBREOFFICE+=" --enable-kde5"
+  [[ -e /usr/lib/pkgconfig/Qt5Core.pc ]] && PKGMK_LIBREOFFICE+=" --enable-qt5" || PKGMK_LIBREOFFICE+=" --disable-qt5"
+  [[ -e /usr/share/kf5/ ]] && PKGMK_LIBREOFFICE+=" --enable-kde5 --enable-gtk3-kde5"
   [[ -e /usr/share/vlc ]] && PKGMK_LIBREOFFICE+=" --enable-vlc" || PKGMK_LIBREOFFICE+=" --disable-vlc" # experimental vlc av backend
   [[ -e /usr/lib/pkgconfig/valgrind.pc ]] && PKGMK_LIBREOFFICE+=" --with-valgrind"
 
   local build_date=$(date +%Y%m%d)
   ./autogen.sh $PKGMK_LIBREOFFICE \
+    --with-parallelism=${JOBS-1} \
     --prefix=/usr \
     --with-external-tar="$SRC/tarballs" \
     --enable-{build-opensymbol,dbus,firebird-sdbc=no,gtk3,introspection=yes,release-build,odk,openssl,python=system} \

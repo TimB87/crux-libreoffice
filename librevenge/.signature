@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67iYeednLTV/zuDxHQuRG/We2I+q2yAUM7jUu/rlcPVmYdFPwFNtWE//HLyV4ObNwBWpwJDnQA5g59Ck3SXUV9aww=
-SHA256 (Pkgfile) = 881df89a091517530fc8ba9c3530dc32620557a00011a799c697d6a08fc6d3c4
+RWRlW2Ac5R67iQwSEC8iP4j0yZSR/Tjg/vgTXM1g6VHr+tCBMvzJbf0wdDqwunCtG58CyYsLoFN+Rhxz5HIJ6NOmM6eUztxzDwA=
+SHA256 (Pkgfile) = 965ddb469ff6083971ae46fa9eb672e7442c937dc45004ec636d81f4233bc4cb
 SHA256 (.footprint) = 2c8cfacc02c4f68b6a24f030a8fbc8e5d30e4081f6c5bca97aa40464eabc5cfc
 SHA256 (librevenge-0.0.4.tar.gz) = a2718efd86000fe769cb6178478af0fd424a9128807361241facd2491bcb772f

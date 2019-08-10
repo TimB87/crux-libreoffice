@@ -1,6 +1,6 @@
 # Description: Highly optimized and portable routines for integer based number theoretic applications
 # URL: http://www.libtom.org/
-# Maintainer: crux libreoffice team, tbier at posteo dot de
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=libtommath

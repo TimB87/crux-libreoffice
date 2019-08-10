@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67idRyufFyNaxQ7qqhEDj6nLApfQFZXhhNVb55yhWWQ+0ToUdWcnWBWCkCqbrsNgE/mJbdws8VU4ywzrzeQg2MrQw=
-SHA256 (Pkgfile) = 41adc1ca1d407f5a84a71e8a291b9c9584ad3f2f04cce1d271e29683fd3d0a06
+RWRlW2Ac5R67iYMj9gB4/z7dKXqMxFiCh0Q8v42xaI+HEwD+XESXtb6ITLp3b4A4Ro0v+V/P81U0eH7wuM2U8GLy5jWXtDMcSwQ=
+SHA256 (Pkgfile) = 4781f01a520b3f644b5b3468eff5b2991dd4e688ebd30e52ebf2541f205b6d2c
 SHA256 (.footprint) = f618b3f2517df0f6b5ea1affa828d4a7491ef95541fa3eb7a6e5c8c60e348952
 SHA256 (libwpd-0.10.3.tar.xz) = 2465b0b662fdc5d4e3bebcdc9a79027713fb629ca2bff04a3c9251fdec42dd09
