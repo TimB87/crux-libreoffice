@@ -181,8 +181,8 @@ f:f791a6be5f783bb645dfdbcddd8f0e1f:libmythes/.signature
 f:0a9b11bbb267e4583418c4e05e749cba:libmythes/Pkgfile
 f:d36af287d78b05bda5468b73c6412c12:glpk/glpk-remove-warnings.patch
 f:e73061dc8260cc089e58d981aa907173:glpk/.footprint
-f:2fb9d7c075b2bad968d9f4b56e8ccb24:glpk/.signature
-f:f721ce0e1738930a24701c8a0b567445:glpk/Pkgfile
+f:105101581be59843d4e72458c123a291:glpk/Pkgfile
+f:c84a316e37592e986f23468738110123:glpk/.signature
 f:e457136a58d49cd2f2460f5275910e90:suitesparse/suitesparse-no-demo.patch
 f:95d8f56ff85704b2ac72d19f154301c3:suitesparse/.footprint
 f:ba995cf40b80f3a62bec70998198bf18:suitesparse/.signature
