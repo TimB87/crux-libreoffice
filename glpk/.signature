@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/crux-libreoffice.pub
-RWRlW2Ac5R67ieMWg/EcDMksjCdsy9e1E5ABKsIoGft1yZHxxi49QGjnsPKcCHfFLEvDg2m0iR4gbva2ZnupXjwMkq4JtCTIIw0=
-SHA256 (Pkgfile) = 024bcbcda1784b0383bf1312992d3234ee7b9c7f2e703fffc9f698d4a71fe9d5
+RWRlW2Ac5R67idEVVVV+K1gT5+iXq3ZfaIHSjmW8QkX5h1y9zyvfBba8rLWa69fmYRc/MwC2wXk4gAVNSgW1JNHqFdkPn/148Qo=
+SHA256 (Pkgfile) = 73b5becd214c889f211121cfe08dd1880328fdda636b4c53da1af616db0c84a6
 SHA256 (.footprint) = 5bf094461f745cf3a657f31eff66efaac32a41845594450bb3969c3ac585dcc9
 SHA256 (glpk-4.65.tar.gz) = 4281e29b628864dfe48d393a7bedd781e5b475387c20d8b0158f329994721a10
 SHA256 (glpk-remove-warnings.patch) = d1d9d944072f1955c5dbc075259443b48c45275f4dde3f11ba45b59474f9ac07
