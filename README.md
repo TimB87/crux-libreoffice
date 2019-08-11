@@ -1,3 +1,6 @@
+# News
+All of this has been moved to contrib, this REPO will be archived and not be maintained anymore.
+
 # crux-libreoffice
 
 This should be fairly easy to build with CRUX 3.5 and there are no errors to be expected as of now.
